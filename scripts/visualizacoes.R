@@ -1,4 +1,5 @@
 source('scripts/input.R')
+library(ggplot2)
 
 # ggplot(esportes[PRINCIPAL==1], aes(reorder(ESPORTE, ESPORTE, function(x) length(x)))) +
 ggplot(esportes[PRINCIPAL==1], aes(reorder(ESPORTE, ESPORTE, length))) +
