@@ -11,6 +11,10 @@ movim <- movim[, lapply(.SD, factor)]
 locais <- data.table(read_excel("dataset/dados padronizados.xls", "Locais de dor"))
 locais <- locais[, lapply(.SD, factor)]
 
+# simplificar colnames
+names(dor) <- c("ID", "DOR")
+names(movim) <- c("ID", "MOVIMENTO")
+names(locais) <- c("ID", "LOCAL")
 
 # remover participante sem dor
 participantes <- participantes[ID != 166]
