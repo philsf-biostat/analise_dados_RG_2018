@@ -7,14 +7,14 @@ esp.princ <- ggplot(esportes[PRINCIPAL==1], aes(reorder(ESPORTE, ESPORTE, length
   xlab("Esporte") +
   coord_flip() +
   ggtitle("Esporte principal")
-ggsave("figures/esp_princ.png", h=4.1, w=4.1)
+ggsave("figures/esp_princ.png", h=5, w=5)
 
 esp.sec <- ggplot(esportes[PRINCIPAL==0], aes(reorder(ESPORTE, ESPORTE, length ))) +
   geom_bar() +
   xlab("Esporte") +
   coord_flip() +
   ggtitle("Esporte secundário")
-ggsave("figures/esp_sec.png", h=4.1, w=4.1)
+ggsave("figures/esp_sec.png", h=5, w=5)
 
 # ggplot(participantes[`ESPORTE 1` == "FUTEBOL" & !is.na(`ESPORTE 2`)], aes(reorder(`ESPORTE 2`, `ESPORTE 2`, length))) +
 #   geom_bar() +
@@ -32,11 +32,11 @@ esp.sec.fut <- ggplot(esportes[ID %in% ids.futebol & PRINCIPAL == 0], aes(reorde
   xlab("Esporte") +
   coord_flip()+
   ggtitle("Esporte acessório quando o principal é futebol")
-ggsave("figures/esp_sec_fut.png", h=4.1, w=4.1)
+ggsave("figures/esp_sec_fut.png", h=5, w=6)
 
 esp.sec.corr <- ggplot(esportes[ID %in% ids.corrida & PRINCIPAL == 0], aes(reorder(ESPORTE, ESPORTE, length))) +
   geom_bar() +
   xlab("Esporte") +
   coord_flip()+
   ggtitle("Esporte acessório quando o principal é corrida")
-ggsave("figures/esp_sec_corr.png", h=4.1, w=4.1)
+ggsave("figures/esp_sec_corr.png", h=5, w=6)
