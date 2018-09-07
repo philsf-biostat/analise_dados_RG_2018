@@ -1,6 +1,8 @@
-# Análise de Dados projeto Pubalgia Atética (Artigo, 2018)
+# Análise de Dados projeto Pubalgia Atlética (Artigo, 2018)
 
-Pesquisa Epidemiologia Pubalgia Atlética no Brasil
+Análise epidemiológica dos pacientes com pubalgia atlética no Brasil
+
+Manuscrito em elaboração com Diogo Noronha (colaborador) e Rodrigo Góes (coordenador).
 
 ## Análises realizadas
 
