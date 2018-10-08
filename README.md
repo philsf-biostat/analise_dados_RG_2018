@@ -10,9 +10,9 @@ Manuscrito em elaboração com Diogo Noronha (colaborador) e Rodrigo Góes (coor
 <!-- 2. yyy ([Planejamento][proj-yyy]) -->
 <!-- 3. zzz ([Planejamento][proj-zzz]) -->
 
-[proj-xxx]: https://github.com/philsf-biostat/xxx/projects/1
-[proj-yyy]: https://github.com/philsf-biostat/xxx/projects/yyy
-[proj-zzz]: https://github.com/philsf-biostat/xxx/projects/zzz
+[proj-xxx]: https://github.com/philsf-biostat/analise_dados_RG_2018/projects/1
+[proj-yyy]: https://github.com/philsf-biostat/analise_dados_RG_2018/projects/yyy
+[proj-zzz]: https://github.com/philsf-biostat/analise_dados_RG_2018/projects/zzz
 
 ## Relatório da análise de dados
 
