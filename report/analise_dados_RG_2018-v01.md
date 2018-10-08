@@ -56,11 +56,27 @@ toc-title: "Sumário"
 
 # Metodologia
 
+
+
 Esta análise foi realizada utilizando-se o software `R` versão 3.4.4.
 
 <!-- The exact confidence intervals (CIs) of binomial proportions were calculated using package `exactci` (version 1.3.3). -->
 
 # Resultados
+
+## Frequência dos esportes principal e secundário na amostra
+
+
+
+![**Figura 1** Frequências do esporte principal](../figures/esp_princ.png)
+
+As duas modalidades esportivas mais praticadas como foco principal pelos participantes com pubalgia atlética são o futebol e a corrida
+(N = 245).
+
+![**Figura 2** Frequências do esporte secundário](../figures/esp_sec.png)
+
+As duas modalidades esportivas mais praticadas como atividade auxiliar pelos participantes com pubalgia atlética são o musculação e a corrida
+(N = 168).
 
 <!-- # Exceções e Desvios do teste -->
 
