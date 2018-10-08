@@ -36,6 +36,16 @@ Versão   Alterações
 
 ---
 
+# Assinaturas
+
+
+Papel             Nome   Função   Assinatura                   Data          
+----------------  -----  -------  ---------------------------  --------------
+Elaborador        Nome   Função   __________________________   _____________ 
+Revisado por                      __________________________   _____________ 
+Verificado por                    __________________________   _____________ 
+Aprovação final                   __________________________   _____________ 
+
 # Lista de abreviaturas
 
 # Introdução
