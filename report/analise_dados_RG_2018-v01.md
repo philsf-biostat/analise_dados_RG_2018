@@ -78,6 +78,21 @@ As duas modalidades esportivas mais praticadas como foco principal pelos partici
 As duas modalidades esportivas mais praticadas como atividade auxiliar pelos participantes com pubalgia atlética são o musculação e a corrida
 (N = 168).
 
+## Atividades auxiliares ao futebol e corrida
+
+
+
+![**Figura 3** Esportes auxiliares ao futebol](../figures/esp_sec_fut.png)
+
+As duas modalidades esportivas mais praticadas como atividade auxiliar pelos participantes com pubalgia atlética que praticam primariamente o futebol são a musculação e a corrida
+(N = 81).
+
+![**Figura 4** Esportes auxiliares à corrida](../figures/esp_sec_corr.png)
+
+As duas modalidades esportivas mais praticadas como atividade auxiliar pelos participantes com pubalgia atlética que praticam primariamente corrida são a musculação e a futebol
+(N = 29).
+
+
 <!-- # Exceções e Desvios do teste -->
 
 # Conclusões

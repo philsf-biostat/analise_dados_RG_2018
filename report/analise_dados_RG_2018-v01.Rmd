@@ -82,8 +82,9 @@ pander(sigs, split.cells = c(9, 14, 14, 16, 8), split.table = Inf)
 
 # Metodologia
 
-```{r}
+```{r include=FALSE}
 source("scripts/resultados.R", encoding = 'UTF-8')
+source("scripts/visualizacoes.R", encoding = 'UTF-8')
 ```
 
 Esta análise foi realizada utilizando-se o software `R` versão `r getRversion()`.
@@ -108,6 +109,24 @@ As duas modalidades esportivas mais praticadas como foco principal pelos partici
 
 As duas modalidades esportivas mais praticadas como atividade auxiliar pelos participantes com pubalgia atlética são o musculação e a corrida
 (N = `r N.sec`).
+
+## Atividades auxiliares ao futebol e corrida
+
+```{r}
+N.sec.fut <- nrow(esportes[ID %in% ids.futebol & PRINCIPAL == 0])
+N.sec.cor <- nrow(esportes[ID %in% ids.corrida & PRINCIPAL == 0])
+```
+
+![**Figura 3** Esportes auxiliares ao futebol](../figures/esp_sec_fut.png)
+
+As duas modalidades esportivas mais praticadas como atividade auxiliar pelos participantes com pubalgia atlética que praticam primariamente o futebol são a musculação e a corrida
+(N = `r N.sec.fut`).
+
+![**Figura 4** Esportes auxiliares à corrida](../figures/esp_sec_corr.png)
+
+As duas modalidades esportivas mais praticadas como atividade auxiliar pelos participantes com pubalgia atlética que praticam primariamente corrida são a musculação e a futebol
+(N = `r N.sec.cor`).
+
 
 <!-- # Exceções e Desvios do teste -->
 
