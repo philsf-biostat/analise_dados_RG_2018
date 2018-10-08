@@ -6,11 +6,11 @@ Manuscrito em elaboração com Diogo Noronha (colaborador) e Rodrigo Góes (coor
 
 ## Análises realizadas
 
-1. xxx ([Planejamento][proj-xxx])
-2. yyy ([Planejamento][proj-yyy])
-3. zzz ([Planejamento][proj-zzz])
+1. Análise descritiva ([Planejamento][proj-xxx])
+<!-- 2. yyy ([Planejamento][proj-yyy]) -->
+<!-- 3. zzz ([Planejamento][proj-zzz]) -->
 
-[proj-xxx]: https://github.com/philsf-biostat/xxx/projects/xxx
+[proj-xxx]: https://github.com/philsf-biostat/xxx/projects/1
 [proj-yyy]: https://github.com/philsf-biostat/xxx/projects/yyy
 [proj-zzz]: https://github.com/philsf-biostat/xxx/projects/zzz
 
