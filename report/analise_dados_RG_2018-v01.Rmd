@@ -82,6 +82,10 @@ pander(sigs, split.cells = c(9, 14, 14, 16, 8), split.table = Inf)
 
 # Metodologia
 
+```{r}
+source("scripts/resultados.R", encoding = 'UTF-8')
+```
+
 Esta análise foi realizada utilizando-se o software `R` versão `r getRversion()`.
 
 <!-- The exact confidence intervals (CIs) of binomial proportions were calculated using package `exactci` (version `r packageVersion("exactci")`). -->
@@ -90,13 +94,20 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 
 ## Frequência dos esportes principal e secundário na amostra
 
+```{r}
+N.princ <- nrow(esportes[PRINCIPAL == 1])
+N.sec <- nrow(esportes[PRINCIPAL == 0])
+```
+
 ![**Figura 1** Frequências do esporte principal](../figures/esp_princ.png)
 
-As duas modalidades esportivas mais praticadas como foco principal pelos participantes com pubalgia atlética são o futebol e a corrida.
+As duas modalidades esportivas mais praticadas como foco principal pelos participantes com pubalgia atlética são o futebol e a corrida
+(N = `r N.princ`).
 
 ![**Figura 2** Frequências do esporte secundário](../figures/esp_sec.png)
 
-As duas modalidades esportivas mais praticadas como atividade auxiliar pelos participantes com pubalgia atlética são o musculação e a corrida.
+As duas modalidades esportivas mais praticadas como atividade auxiliar pelos participantes com pubalgia atlética são o musculação e a corrida
+(N = `r N.sec`).
 
 <!-- # Exceções e Desvios do teste -->
 
