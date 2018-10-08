@@ -1,6 +1,6 @@
 ---
-title: "Análise Estatística de ..."
-author: '**De:** Felipe Figueiredo **Para:** ___'
+title: "Análise Estatística de pacientes com pubalgia atlética no Brasil"
+author: '**De:** Felipe Figueiredo **Para:** Rodrigo Cardoso'
 date: '**Data: ** dd/mm/aaaa'
 output:
   html_document:
@@ -19,7 +19,7 @@ output:
     fig_width: 6
     reference_docx: misc/style.docx
     toc: yes
-subtitle: 'CÓDIGO: analise_dados_RG_2018-v01'
+subtitle: 'RELATÓRIO: analise_dados_RG_2018-v01'
 toc-title: "Sumário"
 ---
 
@@ -30,11 +30,21 @@ toc-title: "Sumário"
 **Histórico do documento**
 
 
-Versão   Alterações     
--------  ---------------
-01       Versão inicial 
+| Versão |   Alterações   |
+|:------:|:--------------:|
+|   01   | Versão inicial |
 
 ---
+
+# Assinaturas
+
+
+|      Papel      |       Nome        |     Função     |         Assinatura         |     Data      |
+|:---------------:|:-----------------:|:--------------:|:--------------------------:|:-------------:|
+|   Elaborador    | Felipe Figueiredo | Bioestatístico | __________________________ | _____________ |
+|  Revisado por   |                   |                | __________________________ | _____________ |
+| Verificado por  |                   |                | __________________________ | _____________ |
+| Aprovação final |                   |                | __________________________ | _____________ |
 
 # Lista de abreviaturas
 
