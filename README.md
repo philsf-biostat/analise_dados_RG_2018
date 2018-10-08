@@ -23,7 +23,9 @@ Manuscrito em elaboração com Diogo Noronha (colaborador) e Rodrigo Góes (coor
 [Planejamento][v01-project].
 
 - [Visualização online][reportviz-v01]
-- [Download][docx-v01]
+- Download (DOCX, PDF)
+<!-- - [DOCX][docx-v01] -->
+<!-- [PDF][pdf-v01] -->
 
 <!-- **Versão 02 - Defesa** - [Em elaboração][milestone-posqual]. -->
 
@@ -36,9 +38,11 @@ Manuscrito em elaboração com Diogo Noronha (colaborador) e Rodrigo Góes (coor
 [milestone-prequal]: https://github.com/philsf-biostat/analise_dados_RG_2018/milestone/2
 [reportviz-v01]: report/analise_dados_RG_2018-v01.md
 [docx-v01]: report/analise_dados_RG_2018-v01.docx?raw=true
+[pdf-v01]: report/analise_dados_RG_2018-v01.pdf?raw=true
 [v01-project]: https://github.com/philsf-biostat/analise_dados_RG_2018/projects/3
 
 <!-- [milestone-posqual]: https://github.com/philsf-biostat/analise_dados_RG_2018/milestone/xxx -->
 <!-- [reportviz-v02]: report/analise_dados_RG_2018-v02.md -->
 <!-- [docx-v02]: report/analise_dados_RG_2018-v02.docx?raw=true -->
+<!-- [pdf-v02]: report/analise_dados_RG_2018-v02.pdf?raw=true -->
 <!-- [v02-project]: https://github.com/philsf-biostat/analise_dados_RG_2018/projects/xxx -->
