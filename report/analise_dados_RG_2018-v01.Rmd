@@ -1,6 +1,6 @@
 ---
-title: "Análise Estatística de ..."
-author: '**De:** Felipe Figueiredo **Para:** ___'
+title: "Análise Estatística de pacientes com pubalgia atlética no Brasil"
+author: '**De:** Felipe Figueiredo **Para:** Rodrigo Cardoso'
 date: '**Data: ** dd/mm/aaaa'
 output:
   html_document:
@@ -19,7 +19,7 @@ output:
     fig_width: 6
     reference_docx: misc/style.docx
     toc: yes
-subtitle: 'CÓDIGO: analise_dados_RG_2018-v01'
+subtitle: 'RELATÓRIO: analise_dados_RG_2018-v01'
 toc-title: "Sumário"
 ---
 
