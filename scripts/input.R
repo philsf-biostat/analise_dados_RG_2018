@@ -24,3 +24,7 @@ esportes <- esportes[, lapply(.SD, factor)]
 dor <- dor[, lapply(.SD, factor)]
 movim <- movim[, lapply(.SD, factor)]
 locais <- locais[, lapply(.SD, factor)]
+
+#esportes princ/sec
+levels(esportes$PRINCIPAL) <- c("Secundário", "Principal")
+esportes$PRINCIPAL <- relevel(esportes$PRINCIPAL, "Principal")
