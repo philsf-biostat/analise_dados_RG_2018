@@ -2,19 +2,30 @@ source('scripts/input.R')
 library(ggplot2)
 
 # ggplot(esportes[PRINCIPAL==1], aes(reorder(ESPORTE, ESPORTE, function(x) length(x)))) +
-esp.princ <- ggplot(esportes[PRINCIPAL==1], aes(reorder(ESPORTE, ESPORTE, length))) +
-  geom_bar() +
-  xlab("Esporte") + ylab("") +
-  ylim(c(0, 150)) +
-  coord_flip() +
-  ggtitle("Esporte principal")
+# esp.princ <- ggplot(esportes[PRINCIPAL==1], aes(reorder(ESPORTE, ESPORTE, length))) +
+#   geom_bar() +
+#   xlab("Esporte") + ylab("") +
+#   ylim(c(0, 150)) +
+#   coord_flip() +
+#   ggtitle("Esporte principal")
 
-esp.sec <- ggplot(esportes[PRINCIPAL==0], aes(reorder(ESPORTE, ESPORTE, length ))) +
+# esp.sec <- ggplot(esportes[PRINCIPAL==0], aes(reorder(ESPORTE, ESPORTE, length ))) +
+#   geom_bar() +
+#   xlab("Esporte") + ylab("") +
+#   ylim(c(0, 150)) +
+#   coord_flip() +
+#   ggtitle("Esporte secundário")
+
+#ordem alfabática
+# esp.princ.sec <- ggplot(esportes, aes(factor(esportes$ESPORTE, levels(esportes$ESPORTE)[25:1]), fill = PRINCIPAL)) +
+
+# ordem de prevalência (Pareto)
+esp.prev <- ggplot(esportes, aes(reorder(ESPORTE, ESPORTE, length), fill = PRINCIPAL)) +
   geom_bar() +
   xlab("Esporte") + ylab("") +
-  ylim(c(0, 150)) +
   coord_flip() +
-  ggtitle("Esporte secundário")
+  # ggtitle("") +
+  theme(legend.position = "bottom", legend.title = element_blank())
 
 # ggplot(participantes[`ESPORTE 1` == "FUTEBOL" & !is.na(`ESPORTE 2`)], aes(reorder(`ESPORTE 2`, `ESPORTE 2`, length))) +
 #   geom_bar() +
