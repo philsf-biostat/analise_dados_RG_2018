@@ -90,19 +90,45 @@ Juntas estas três modalidades representam
 66.1%
 dos esportes secundários dos atletas com pubalgia (111 de 168).
 
-## Atividades auxiliares ao futebol e corrida
+### Atividades auxiliares dos praticantes de futebol
 
 
 
-![**Figura 3** Esportes auxiliares ao futebol](../figures/esp_sec_fut.png)
+As duas modalidades esportivas mais praticadas como atividade auxiliar pelos participantes com pubalgia atlética que praticam primariamente o futebol são a
+musculação (N = 32)
+e a corrida (N = 22).
+Juntos estas duas modadalidades representam
+66.7%
+dos esportes secundários dos atletas com pubalgia (54 de 81).
 
-As duas modalidades esportivas mais praticadas como atividade auxiliar pelos participantes com pubalgia atlética que praticam primariamente o futebol são a musculação e a corrida
-(N = 81).
+![**Figura 2** Esportes auxiliares ao futebol](../figures/esp_sec_fut.png)
 
-![**Figura 4** Esportes auxiliares à corrida](../figures/esp_sec_corr.png)
+### Atividades auxiliares dos praticantes de corrida
 
-As duas modalidades esportivas mais praticadas como atividade auxiliar pelos participantes com pubalgia atlética que praticam primariamente corrida são a musculação e a futebol
-(N = 29).
+
+
+As duas modalidades esportivas mais praticadas como atividade auxiliar pelos participantes com pubalgia atlética que praticam primariamente a corrida são a
+musculação (N = 9)
+e futebol (N = 8).
+Juntos estas duas modadalidades representam
+58.6%
+dos esportes secundários dos atletas com pubalgia (17 de 29).
+
+![**Figura 3** Esportes auxiliares à corrida](../figures/esp_sec_corr.png)
+
+
+### Atividades auxiliares dos praticantes de musculação
+
+
+
+As duas modalidades esportivas mais praticadas como atividade auxiliar pelos participantes com pubalgia atlética que praticam primariamente o futebol são a
+musculação (N = 5)
+e a corrida (N = 3).
+Juntos estas duas modadalidades representam
+57.1%
+dos esportes secundários dos atletas com pubalgia (8 de 14).
+
+![**Figura 4** Esportes auxiliares à musculação](../figures/esp_sec_musc.png)
 
 
 <!-- # Exceções e Desvios do teste -->
