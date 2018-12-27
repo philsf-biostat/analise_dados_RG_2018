@@ -133,6 +133,15 @@ dos esportes secundários dos atletas com pubalgia (8 de 14).
 
 <!-- # Exceções e Desvios do teste -->
 
+# Discussão
+
+Esta série de casos avaliou as distribuições dos esportes praticados por atletas com pubalgia em 25 modalidades desportivas, tanto como esporte principal como atividade secundária ou acessória (figura 1).
+Não é surpreendente que, no Brasil, o futebol seja o esporte mais praticado pelos pacientes atendidos com pubalgia.
+Neste estudo, no entanto, os atletas que demonstraram preferência por este esporte são não somente mais frequentes, mas também são os que mais praticam outras atividades (figuras 2, 3 e 4).
+A discrepância na opção por atividades acessórias é marcante:
+81 jogadores de futebol relataram praticar atividades secundárias,
+enquanto que os dados de atletas de corrida e musculação são consideravelmente (29 e 14, respectivamente).
+
 # Conclusões
 
 
