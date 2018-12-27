@@ -175,6 +175,11 @@ dos esportes secundários dos atletas com pubalgia (`r sum(N.sec.musc[1:2])` de 
 
 ![**Figura 4** Esportes auxiliares à musculação](../figures/esp_sec_musc.png)
 
+## Desempenho dos exames físicos
+
+```{r}
+pander(print(tab.ef, printToggle = FALSE))
+```
 
 <!-- # Exceções e Desvios do teste -->
 

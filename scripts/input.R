@@ -25,6 +25,11 @@ dor <- dor[, lapply(.SD, factor)]
 movim <- movim[, lapply(.SD, factor)]
 locais <- locais[, lapply(.SD, factor)]
 
+ef <- participantes[, .(EF1, EF2, EF3, EF4, EF5, EF6, EF7, EF8, EF9, EF10)]
+ef <- ef[, lapply(.SD, factor)]
+ef <- ef[, lapply(.SD, relevel, "2")] # 1 é positivo
+ef <- cbind(ID = factor(participantes$ID), ef)
+
 #esportes princ/sec
 levels(esportes$PRINCIPAL) <- c("Secundário", "Principal")
 esportes$PRINCIPAL <- relevel(esportes$PRINCIPAL, "Principal")

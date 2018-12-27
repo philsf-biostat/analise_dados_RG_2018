@@ -130,6 +130,22 @@ dos esportes secundários dos atletas com pubalgia (8 de 14).
 
 ![**Figura 4** Esportes auxiliares à musculação](../figures/esp_sec_musc.png)
 
+## Desempenho dos exames físicos
+
+
+|      &nbsp;      |  Overall   |
+|:----------------:|:----------:|
+|      **n**       |    245     |
+| **EF1 = 1 (%)**  | 77 (31.4)  |
+| **EF2 = 1 (%)**  | 188 (76.7) |
+| **EF3 = 1 (%)**  | 166 (67.8) |
+| **EF4 = 1 (%)**  | 190 (77.6) |
+| **EF5 = 1 (%)**  | 153 (62.4) |
+| **EF6 = 1 (%)**  | 102 (41.6) |
+| **EF7 = 1 (%)**  | 168 (68.6) |
+| **EF8 = 1 (%)**  | 71 (29.0)  |
+| **EF9 = 1 (%)**  | 37 (15.1)  |
+| **EF10 = 1 (%)** | 120 (49.0) |
 
 <!-- # Exceções e Desvios do teste -->
 
