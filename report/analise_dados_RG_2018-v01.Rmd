@@ -96,17 +96,32 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 ## Distribuição das modalidades esportivas praticadas pelos atletas com pubalgia
 
 ```{r}
-N.princ <- nrow(esportes[PRINCIPAL == "Principal"])
-N.sec <- nrow(esportes[PRINCIPAL == "Secundário"])
+N.esportes.fig1 <- sort(table(esportes$ESPORTE), decreasing = TRUE)
+N.princ.fig1 <- sort(table(esportes$PRINCIPAL, esportes$ESPORTE)[1, ], decreasing = TRUE)
+N.sec.fig1 <- sort(table(esportes$PRINCIPAL, esportes$ESPORTE)[2, ], decreasing = TRUE)
 ```
+
+Nesta série de casos, os atletas com pubalgia relataram praticar 25 modalidades esportivas distintas (figura 1).
+Três esportes se destacam como os mais comuns entre os participantes, seja como atividade esportiva principal ou secundária.
+Quando incluímos todos os atletas que praticam as modalidades esportivas sem considerar a atividade principal ou secundária temos
+o futebol (N = `r N.esportes.fig1[1]`),
+a corrida (N = `r N.esportes.fig1[2]`)
+e a musculação (N = `r N.esportes.fig1[3]`).
 
 ![**Figura 1** Prevalência dos esportes nos atletas com pubalgia](../figures/esp_prev.png)
 
-As duas modalidades esportivas mais praticadas como foco principal pelos participantes com pubalgia atlética são o futebol, a corrida e a musculação.
-(N = `r N.princ`).
-
-As duas modalidades esportivas mais praticadas como atividade auxiliar pelos participantes com pubalgia atlética são o musculação e a corrida
-(N = `r N.sec`).
+As três modalidades globalmente mais comuns são também as selecionadas mais tipicamente tanto como esporte principal quanto como esporte secundário.
+Quando consideradas apenas as modalides principais dos atletas, o futebol foi selecionado como atividade principal por `r N.princ.fig1[1]` atletas, enquanto que a corrida e a musculação foram selecionadas por `r N.princ.fig1[2]` e `r N.princ.fig1[3]` atletas, respectivamente.
+Juntas estas três modadalidades esportivas representam
+`r format.pct(sum(N.princ.fig1[1:3])/sum(N.princ.fig1))`
+da amostra (`r sum(N.princ.fig1[1:3])` de `r sum(N.princ.fig1)`).
+As três modalidades mais selecionadas pelos atletas como esportes secundários ou acessórios são
+a musculação (N = `r N.sec.fig1[1]`),
+a corrida (N = `r N.sec.fig1[2]`)
+e o futebol (N = `r N.sec.fig1[3]`).
+Juntas estas três modalidades representam
+`r format.pct(sum(N.sec.fig1[1:3])/sum(N.sec.fig1))`
+dos esportes secundários dos atletas com pubalgia (`r sum(N.sec.fig1[1:3])` de `r sum(N.sec.fig1)`).
 
 ## Atividades auxiliares ao futebol e corrida
 
