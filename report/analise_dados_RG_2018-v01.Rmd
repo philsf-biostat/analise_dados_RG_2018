@@ -93,19 +93,17 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 
 # Resultados
 
-## Frequência dos esportes principal e secundário na amostra
+## Distribuição das modalidades esportivas praticadas pelos atletas com pubalgia
 
 ```{r}
-N.princ <- nrow(esportes[PRINCIPAL == 1])
-N.sec <- nrow(esportes[PRINCIPAL == 0])
+N.princ <- nrow(esportes[PRINCIPAL == "Principal"])
+N.sec <- nrow(esportes[PRINCIPAL == "Secundário"])
 ```
 
-![**Figura 1** Frequências do esporte principal](../figures/esp_princ.png)
+![**Figura 1** Prevalência dos esportes nos atletas com pubalgia](../figures/esp_prev.png)
 
-As duas modalidades esportivas mais praticadas como foco principal pelos participantes com pubalgia atlética são o futebol e a corrida
+As duas modalidades esportivas mais praticadas como foco principal pelos participantes com pubalgia atlética são o futebol, a corrida e a musculação.
 (N = `r N.princ`).
-
-![**Figura 2** Frequências do esporte secundário](../figures/esp_sec.png)
 
 As duas modalidades esportivas mais praticadas como atividade auxiliar pelos participantes com pubalgia atlética são o musculação e a corrida
 (N = `r N.sec`).
@@ -113,8 +111,8 @@ As duas modalidades esportivas mais praticadas como atividade auxiliar pelos par
 ## Atividades auxiliares ao futebol e corrida
 
 ```{r}
-N.sec.fut <- nrow(esportes[ID %in% ids.futebol & PRINCIPAL == 0])
-N.sec.cor <- nrow(esportes[ID %in% ids.corrida & PRINCIPAL == 0])
+N.sec.fut <- nrow(esportes[ID %in% ids.futebol & PRINCIPAL == "Secundário"])
+N.sec.cor <- nrow(esportes[ID %in% ids.corrida & PRINCIPAL == "Secundário"])
 ```
 
 ![**Figura 3** Esportes auxiliares ao futebol](../figures/esp_sec_fut.png)

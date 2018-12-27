@@ -64,16 +64,14 @@ Esta análise foi realizada utilizando-se o software `R` versão 3.4.4.
 
 # Resultados
 
-## Frequência dos esportes principal e secundário na amostra
+## Distribuição das modalidades esportivas praticadas pelos atletas com pubalgia
 
 
 
-![**Figura 1** Frequências do esporte principal](../figures/esp_princ.png)
+![**Figura 1** Prevalência dos esportes nos atletas com pubalgia](../figures/esp_prev.png)
 
-As duas modalidades esportivas mais praticadas como foco principal pelos participantes com pubalgia atlética são o futebol e a corrida
+As duas modalidades esportivas mais praticadas como foco principal pelos participantes com pubalgia atlética são o futebol, a corrida e a musculação.
 (N = 245).
-
-![**Figura 2** Frequências do esporte secundário](../figures/esp_sec.png)
 
 As duas modalidades esportivas mais praticadas como atividade auxiliar pelos participantes com pubalgia atlética são o musculação e a corrida
 (N = 168).
