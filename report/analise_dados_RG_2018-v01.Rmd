@@ -89,7 +89,7 @@ source("scripts/visualizacoes.R", encoding = 'UTF-8')
 
 Esta análise foi realizada utilizando-se o software `R` versão `r getRversion()`.
 
-<!-- The exact confidence intervals (CIs) of binomial proportions were calculated using package `exactci` (version `r packageVersion("exactci")`). -->
+
 
 # Resultados
 
