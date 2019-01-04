@@ -1,6 +1,6 @@
 ---
-title: "Análise Estatística de pacientes com pubalgia atlética no Brasil"
-author: '**De:** Felipe Figueiredo **Para:** Rodrigo Cardoso'
+title: "Análise exploratória de dados de pacientes com pubalgia atlética no Brasil"
+author: '**De:** Felipe Figueiredo **Para:** Rodrigo Góes'
 date: '**Data: ** dd/mm/aaaa'
 output:
   html_document:
@@ -49,28 +49,28 @@ pander(history, split.cells = 70)
 
 ---
 
-# Assinaturas
+<!-- # Assinaturas -->
 
-```{r, echo=FALSE}
-sig.field <- "__________________________"
-date.field <- "_____________"
-Stat <- c("Elaborador", "Felipe Figueiredo", "Bioestatístico", sig.field, date.field)
-Reviewer <- c("Revisado por", "", "", sig.field, date.field)
-Approver <- c("Verificado por", "", "", sig.field, date.field)
-Final.Approver <- c("Aprovação final", "", "", sig.field, date.field)
+<!-- ```{r, echo=FALSE} -->
+<!-- sig.field <- "__________________________" -->
+<!-- date.field <- "_____________" -->
+<!-- Stat <- c("Elaborador", "Felipe Figueiredo", "Bioestatístico", sig.field, date.field) -->
+<!-- Reviewer <- c("Revisado por", "", "", sig.field, date.field) -->
+<!-- Approver <- c("Verificado por", "", "", sig.field, date.field) -->
+<!-- Final.Approver <- c("Aprovação final", "", "", sig.field, date.field) -->
 
-sigs <- rbind(
-  Stat
-  , Reviewer
-  , Approver
-  , Final.Approver
-  )
-rownames(sigs) <- NULL
-colnames(sigs) <- c("Papel", "Nome", "Função", "Assinatura", "Data")
+<!-- sigs <- rbind( -->
+<!--   Stat -->
+<!--   , Reviewer -->
+<!--   , Approver -->
+<!--   , Final.Approver -->
+<!--   ) -->
+<!-- rownames(sigs) <- NULL -->
+<!-- colnames(sigs) <- c("Papel", "Nome", "Função", "Assinatura", "Data") -->
 
-pander(sigs, split.cells = c(9, 14, 14, 16, 8), split.table = Inf)
-# kable(sigs)
-```
+<!-- pander(sigs, split.cells = c(9, 14, 14, 16, 8), split.table = Inf) -->
+<!-- # kable(sigs) -->
+<!-- ``` -->
 
 # Lista de abreviaturas
 
@@ -89,7 +89,7 @@ source("scripts/visualizacoes.R", encoding = 'UTF-8')
 
 Esta análise foi realizada utilizando-se o software `R` versão `r getRversion()`.
 
-<!-- The exact confidence intervals (CIs) of binomial proportions were calculated using package `exactci` (version `r packageVersion("exactci")`). -->
+
 
 # Resultados
 

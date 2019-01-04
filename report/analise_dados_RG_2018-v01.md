@@ -1,6 +1,6 @@
 ---
-title: "Análise Estatística de pacientes com pubalgia atlética no Brasil"
-author: '**De:** Felipe Figueiredo **Para:** Rodrigo Cardoso'
+title: "Análise exploratória de dados de pacientes com pubalgia atlética no Brasil"
+author: '**De:** Felipe Figueiredo **Para:** Rodrigo Góes'
 date: '**Data: ** dd/mm/aaaa'
 output:
   html_document:
@@ -36,15 +36,28 @@ toc-title: "Sumário"
 
 ---
 
-# Assinaturas
+<!-- # Assinaturas -->
 
+<!-- ```{r, echo=FALSE} -->
+<!-- sig.field <- "__________________________" -->
+<!-- date.field <- "_____________" -->
+<!-- Stat <- c("Elaborador", "Felipe Figueiredo", "Bioestatístico", sig.field, date.field) -->
+<!-- Reviewer <- c("Revisado por", "", "", sig.field, date.field) -->
+<!-- Approver <- c("Verificado por", "", "", sig.field, date.field) -->
+<!-- Final.Approver <- c("Aprovação final", "", "", sig.field, date.field) -->
 
-|      Papel      |       Nome        |     Função     |         Assinatura         |     Data      |
-|:---------------:|:-----------------:|:--------------:|:--------------------------:|:-------------:|
-|   Elaborador    | Felipe Figueiredo | Bioestatístico | __________________________ | _____________ |
-|  Revisado por   |                   |                | __________________________ | _____________ |
-| Verificado por  |                   |                | __________________________ | _____________ |
-| Aprovação final |                   |                | __________________________ | _____________ |
+<!-- sigs <- rbind( -->
+<!--   Stat -->
+<!--   , Reviewer -->
+<!--   , Approver -->
+<!--   , Final.Approver -->
+<!--   ) -->
+<!-- rownames(sigs) <- NULL -->
+<!-- colnames(sigs) <- c("Papel", "Nome", "Função", "Assinatura", "Data") -->
+
+<!-- pander(sigs, split.cells = c(9, 14, 14, 16, 8), split.table = Inf) -->
+<!-- # kable(sigs) -->
+<!-- ``` -->
 
 # Lista de abreviaturas
 
@@ -58,9 +71,9 @@ toc-title: "Sumário"
 
 
 
-Esta análise foi realizada utilizando-se o software `R` versão 3.4.4.
+Esta análise foi realizada utilizando-se o software `R` versão 3.5.2.
 
-<!-- The exact confidence intervals (CIs) of binomial proportions were calculated using package `exactci` (version 1.3.3). -->
+
 
 # Resultados
 
