@@ -1,4 +1,4 @@
-source('scripts/input.R')
+source('scripts/input.R', encoding = 'UTF-8')
 library(ggplot2)
 
 # ggplot(esportes[PRINCIPAL==1], aes(reorder(ESPORTE, ESPORTE, function(x) length(x)))) +
