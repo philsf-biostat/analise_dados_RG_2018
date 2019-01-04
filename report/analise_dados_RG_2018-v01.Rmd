@@ -1,6 +1,6 @@
 ---
-title: "Análise Estatística de pacientes com pubalgia atlética no Brasil"
-author: '**De:** Felipe Figueiredo **Para:** Rodrigo Cardoso'
+title: "Análise exploratória de dados de pacientes com pubalgia atlética no Brasil"
+author: '**De:** Felipe Figueiredo **Para:** Rodrigo Góes'
 date: '**Data: ** dd/mm/aaaa'
 output:
   html_document:
