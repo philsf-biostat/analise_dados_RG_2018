@@ -25,9 +25,6 @@ dor <- dor[, lapply(.SD, factor)]
 movim <- movim[, lapply(.SD, factor)]
 locais <- locais[, lapply(.SD, factor)]
 
-ef <- participantes[, .(ID, EF1, EF2, EF3, EF4, EF5, EF6, EF7, EF8, EF9, EF10)]
-ef <- ef[, lapply(.SD, factor)]
-
 # reduzir colunas espúrias
 participantes <- participantes[, .(
   ID,
@@ -41,7 +38,17 @@ participantes <- participantes[, .(
   # MEDICOS=`N° DE MEDICOS QUE PROCUROU`,
   INTERFERE=`INTERFERE NA PERFORMANCE ESPORTIVA`,
   AGUDA,
-  CIRURGIA=Cirurgia
+  CIRURGIA=Cirurgia,
+  EF1,
+  EF2,
+  EF3,
+  EF4,
+  EF5,
+  EF6,
+  EF7,
+  EF8,
+  EF9,
+  EF10
 )]
 
 factorcols <- c(
@@ -51,7 +58,17 @@ factorcols <- c(
   "NIVEL",
   "INTERFERE",
   "AGUDA",
-  "CIRURGIA"
+  "CIRURGIA",
+  "EF1",
+  "EF2",
+  "EF3",
+  "EF4",
+  "EF5",
+  "EF6",
+  "EF7",
+  "EF8",
+  "EF9",
+  "EF10"
 )
 participantes[, (factorcols) := lapply(.SD, factor), .SDcols = factorcols]
 rm(factorcols)
