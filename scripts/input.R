@@ -25,10 +25,36 @@ dor <- dor[, lapply(.SD, factor)]
 movim <- movim[, lapply(.SD, factor)]
 locais <- locais[, lapply(.SD, factor)]
 
-ef <- participantes[, .(EF1, EF2, EF3, EF4, EF5, EF6, EF7, EF8, EF9, EF10)]
+ef <- participantes[, .(ID, EF1, EF2, EF3, EF4, EF5, EF6, EF7, EF8, EF9, EF10)]
 ef <- ef[, lapply(.SD, factor)]
-ef <- ef[, lapply(.SD, relevel, "2")] # 1 é positivo
-ef <- cbind(ID = factor(participantes$ID), ef)
+
+# reduzir colunas espúrias
+participantes <- participantes[, .(
+  ID,
+  NOME,
+  IDADE,
+  SEXO,
+  UF,
+  FREQ=`FREQ DE TREINO (dias semana)`,
+  NIVEL=NÍVEL,
+  TEMPO=`TEMPO P/ DIAGNOSTICO`,
+  # MEDICOS=`N° DE MEDICOS QUE PROCUROU`,
+  INTERFERE=`INTERFERE NA PERFORMANCE ESPORTIVA`,
+  AGUDA,
+  CIRURGIA=Cirurgia
+)]
+
+factorcols <- c(
+  "ID",
+  "SEXO",
+  "UF",
+  "NIVEL",
+  "INTERFERE",
+  "AGUDA",
+  "CIRURGIA"
+)
+participantes[, (factorcols) := lapply(.SD, factor), .SDcols = factorcols]
+rm(factorcols)
 
 #esportes princ/sec
 levels(esportes$PRINCIPAL) <- c("Secundário", "Principal")
