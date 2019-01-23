@@ -1,4 +1,5 @@
 source('scripts/input.R', encoding = 'UTF-8')
+library(tableone)
 
 esportes.cirurg <- esportes[participantes[, .(ID, CIRURGIA)], , on = .(ID)]
 esportes.cirurg[, PRINCIPAL := NULL]
