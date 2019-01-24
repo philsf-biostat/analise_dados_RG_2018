@@ -178,7 +178,7 @@ dos esportes secundários dos atletas com pubalgia (`r sum(N.sec.musc[1:2])` de 
 ## Desempenho dos exames físicos
 
 ```{r}
-pander(print(tab.ef, printToggle = FALSE))
+pander(tab.ef)
 ```
 
 <!-- # Exceções e Desvios do teste -->
