@@ -181,6 +181,14 @@ dos esportes secundários dos atletas com pubalgia (`r sum(N.sec.musc[1:2])` de 
 pander(tab.ef)
 ```
 
+## Esportes
+
+```{r}
+pander(tab.esportes, split.table = Inf)
+# pander(tab.esportes[, -6], split.table = Inf)
+```
+
+
 <!-- # Exceções e Desvios do teste -->
 
 # Discussão
