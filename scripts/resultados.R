@@ -1,5 +1,6 @@
 source('scripts/input.R', encoding = 'UTF-8')
 library(tableone)
+library(stringr)
 source('scripts/res-assoc-esp-cirurg.R', encoding = 'UTF-8')
 source('scripts/res-assoc-esp-movim.R', encoding = 'UTF-8')
 source('scripts/res-assoc-tempo-EF.R', encoding = 'UTF-8')
@@ -15,5 +16,5 @@ tab.esportes <- rbind(
 )
 
 # Pós-processamento das tabelas
-rownames(tab.ef) <- stringr::str_replace(rownames(tab.ef), '= 1 \\(%\\)', '(%)')
-rownames(tab.esportes) <- stringr::str_replace(rownames(tab.esportes), '= 1 \\(%\\)', '(%)')
+rownames(tab.ef) <- str_replace(rownames(tab.ef), '= 1 \\(%\\)', '(%)')
+rownames(tab.esportes) <- str_replace(rownames(tab.esportes), '= 1 \\(%\\)', '(%)')
