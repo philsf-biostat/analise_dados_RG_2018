@@ -16,3 +16,4 @@ tab.esportes <- rbind(
 
 # Pós-processamento das tabelas
 rownames(tab.ef) <- stringr::str_replace(rownames(tab.ef), '= 1 \\(%\\)', '(%)')
+rownames(tab.esportes) <- stringr::str_replace(rownames(tab.esportes), '= 1 \\(%\\)', '(%)')
