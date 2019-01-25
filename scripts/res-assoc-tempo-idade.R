@@ -13,4 +13,4 @@ range(participantes$TEMPO)
 
 # with(participantes, cor.test(TEMPO, IDADE, method = "spearman"))
 
-print(CreateTableOne("IDADE", "TEMPO.cat", participantes), exact = TRUE)
+tab.tempo.idade <- CreateTableOne("IDADE.cat", "TEMPO.cat", participantes)
