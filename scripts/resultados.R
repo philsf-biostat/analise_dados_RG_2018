@@ -15,13 +15,9 @@ tab.esportes <- rbind(
   print(tab.esportes.movim, exact = FALSE, printToggle = FALSE)
 )
 
-# # Tempo numérico (dias)
 tab.tempo <- rbind(
-  tab.tempo.ef
+  print(tab.tempo.ef, exact = TRUE, printToggle = FALSE)
 )
-
-## Categorizado (corte = 1 ano)
-## ocultar código acima (tab.tempo gerada no protótipo)
 
 # Pós-processamento das tabelas
 rownames(tab.ef) <- str_replace(rownames(tab.ef), '= 1 \\(%\\)', '(%)')
