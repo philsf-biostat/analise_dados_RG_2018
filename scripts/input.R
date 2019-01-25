@@ -1,5 +1,6 @@
 library(data.table)
 library(readxl)
+library(forcats)
 
 participantes <- data.table(read_excel("dataset/dados padronizados.xls", "Participantes"))
 esportes <- data.table(read_excel("dataset/dados padronizados.xls", "Esportes"))
@@ -69,6 +70,7 @@ rm(factorcols)
 #esportes princ/sec
 levels(esportes$PRINCIPAL) <- c("Secundário", "Principal")
 esportes$PRINCIPAL <- relevel(esportes$PRINCIPAL, "Principal")
+esportes$ESPORTE <- fct_infreq(esportes$ESPORTE) # por frequência
 
 # Categorização do TEMPO
 participantes$TEMPO.cat <- cut(participantes$TEMPO, breaks = c(-Inf, 90, Inf), labels = c("<= 90d", "> 90d"))
