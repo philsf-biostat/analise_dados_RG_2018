@@ -5,9 +5,6 @@ library(tableone)
 # hist(participantes$TEMPO)
 # shapiro.test(participantes$TEMPO)
 
-participantes$TEMPO.ano <- cut(participantes$TEMPO, breaks = c(-Inf, 365, Inf), labels = c("<=1 ano", ">1 ano"))
-summary(participantes$TEMPO.ano)
-
 tab.tempo.ef <- CreateTableOne(ef.colnames, "TEMPO.ano", participantes)
 tab.tempo <- print(tab.tempo.ef, exact = TRUE, printToggle = FALSE)
 

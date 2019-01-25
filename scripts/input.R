@@ -69,3 +69,6 @@ rm(factorcols)
 #esportes princ/sec
 levels(esportes$PRINCIPAL) <- c("Secundário", "Principal")
 esportes$PRINCIPAL <- relevel(esportes$PRINCIPAL, "Principal")
+
+# Categorização do TEMPO
+participantes$TEMPO.cat <- cut(participantes$TEMPO, breaks = c(-Inf, 90, Inf), labels = c("<= 90d", "> 90d"))
