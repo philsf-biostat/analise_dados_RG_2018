@@ -26,3 +26,4 @@ tab.tempo <- rbind(
 # Pós-processamento das tabelas
 rownames(tab.ef) <- str_replace(rownames(tab.ef), '= 1 \\(%\\)', '(%)')
 rownames(tab.esportes) <- str_replace(rownames(tab.esportes), '= 1 \\(%\\)', '(%)')
+rownames(tab.tempo) <- str_replace(rownames(tab.tempo), '= 1 \\(%\\)', '(%)')
