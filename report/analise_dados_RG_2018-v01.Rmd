@@ -175,17 +175,28 @@ dos esportes secundários dos atletas com pubalgia (`r sum(N.sec.musc[1:2])` de 
 
 ![**Figura 4** Esportes auxiliares à musculação](../figures/esp_sec_musc.png)
 
-## Desempenho dos exames físicos
+## Avaliação das modalides esportivas
+
+### Associação com os exames físicos
 
 ```{r}
 pander(tab.ef)
 ```
 
-## Esportes
+### Associação com os Cirurgua e movimento em que sente dor
 
 ```{r}
 pander(tab.esportes, split.table = Inf)
 # pander(tab.esportes[, -6], split.table = Inf)
+```
+
+## Avaliação do tempo até o diagnóstico
+
+### Associação com os exames físicos
+
+```{r}
+pander(tab.tempo, split.table = Inf)
+# pander(tab.tempo[, -4], split.table = Inf)
 ```
 
 
