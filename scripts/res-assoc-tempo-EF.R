@@ -1,0 +1,28 @@
+source('scripts/input.R', encoding = 'UTF-8')
+library(tableone)
+
+# plot(participantes[, .(EF1, TEMPO)])
+# hist(participantes$TEMPO)
+# shapiro.test(participantes$TEMPO)
+
+participantes$TEMPO.ano <- cut(participantes$TEMPO, breaks = c(-Inf, 365, Inf), labels = c("<=1 ano", ">1 ano"))
+summary(participantes$TEMPO.ano)
+
+tab.tempo.ef <- CreateTableOne(ef.colnames, "TEMPO.ano", participantes)
+tab.tempo <- print(tab.tempo.ef, exact = TRUE, printToggle = FALSE)
+
+tab.tempo.ef <- rbind(
+  print(CreateTableOne("TEMPO", "EF1", participantes), nonnormal = TRUE, printToggle = FALSE),
+  print(CreateTableOne("TEMPO", "EF2", participantes), nonnormal = TRUE, printToggle = FALSE),
+  print(CreateTableOne("TEMPO", "EF3", participantes), nonnormal = TRUE, printToggle = FALSE),
+  print(CreateTableOne("TEMPO", "EF4", participantes), nonnormal = TRUE, printToggle = FALSE),
+  print(CreateTableOne("TEMPO", "EF5", participantes), nonnormal = TRUE, printToggle = FALSE),
+  print(CreateTableOne("TEMPO", "EF6", participantes), nonnormal = TRUE, printToggle = FALSE),
+  print(CreateTableOne("TEMPO", "EF7", participantes), nonnormal = TRUE, printToggle = FALSE),
+  print(CreateTableOne("TEMPO", "EF8", participantes), nonnormal = TRUE, printToggle = FALSE),
+  print(CreateTableOne("TEMPO", "EF9", participantes), nonnormal = TRUE, printToggle = FALSE),
+  print(CreateTableOne("TEMPO", "EF10", participantes), nonnormal = TRUE, printToggle = FALSE)
+)
+
+# participantes[, .(p = wilcox.test(TEMPO ~ EF1)$p.value), by = ef]
+# wilcox.test(TEMPO ~ EF1, participantes)
