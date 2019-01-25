@@ -17,10 +17,12 @@ tab.esportes <- rbind(
 
 tab.tempo <- rbind(
   print(tab.tempo.ef, exact = TRUE, printToggle = FALSE),
-  print(tab.tempo.nivel, exact = TRUE, printToggle = FALSE)
+  print(tab.tempo.nivel, exact = TRUE, printToggle = FALSE),
+  print(tab.tempo.idade, exact = TRUE, printToggle = FALSE)
 )
 
 # Pós-processamento das tabelas
 rownames(tab.ef) <- str_replace(rownames(tab.ef), '= 1 \\(%\\)', '(%)')
 rownames(tab.esportes) <- str_replace(rownames(tab.esportes), '= 1 \\(%\\)', '(%)')
 rownames(tab.tempo) <- str_replace(rownames(tab.tempo), '= 1 \\(%\\)', '(%)')
+rownames(tab.tempo) <- str_replace(rownames(tab.tempo), 'IDADE.cat', 'IDADE')

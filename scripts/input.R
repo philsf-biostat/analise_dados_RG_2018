@@ -72,3 +72,6 @@ esportes$PRINCIPAL <- relevel(esportes$PRINCIPAL, "Principal")
 
 # Categorização do TEMPO
 participantes$TEMPO.cat <- cut(participantes$TEMPO, breaks = c(-Inf, 90, Inf), labels = c("<= 90d", "> 90d"))
+
+# Categorização da IDADE
+participantes$IDADE.cat <- cut(participantes$IDADE, breaks = c(-Inf, 24, 40, Inf), labels = c("< 25 anos", "25-40 anos", "> 40 anos"))
