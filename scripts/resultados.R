@@ -16,7 +16,8 @@ tab.esportes <- rbind(
 )
 
 tab.tempo <- rbind(
-  print(tab.tempo.ef, exact = TRUE, printToggle = FALSE)
+  print(tab.tempo.ef, exact = TRUE, printToggle = FALSE),
+  print(tab.tempo.nivel, exact = TRUE, printToggle = FALSE)
 )
 
 # Pós-processamento das tabelas
