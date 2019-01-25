@@ -7,7 +7,7 @@ source('scripts/res-assoc-tempo-EF.R', encoding = 'UTF-8')
 source('scripts/res-assoc-tempo-idade.R', encoding = 'UTF-8')
 source('scripts/res-assoc-tempo-nivel.R', encoding = 'UTF-8')
 
-tab.ef.t1 <- CreateTableOne(c("EF1", "EF2", "EF3", "EF4", "EF5", "EF6", "EF7", "EF8", "EF9", "EF10"), data = participantes)
+tab.ef.t1 <- CreateTableOne(ef.colnames, data = participantes)
 tab.ef <- print(tab.ef.t1, printToggle = FALSE)
 
 tab.esportes <- rbind(
@@ -15,6 +15,11 @@ tab.esportes <- rbind(
   print(tab.esportes.movim, exact = FALSE, printToggle = FALSE)
 )
 
+tab.tempo <- rbind(
+  print(tab.tempo.ef, exact = TRUE, printToggle = FALSE)
+)
+
 # Pós-processamento das tabelas
 rownames(tab.ef) <- str_replace(rownames(tab.ef), '= 1 \\(%\\)', '(%)')
 rownames(tab.esportes) <- str_replace(rownames(tab.esportes), '= 1 \\(%\\)', '(%)')
+rownames(tab.tempo) <- str_replace(rownames(tab.tempo), '= 1 \\(%\\)', '(%)')

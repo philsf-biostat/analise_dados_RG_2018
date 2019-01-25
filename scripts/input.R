@@ -51,6 +51,8 @@ participantes <- participantes[, .(
   EF10
 )]
 
+ef.colnames <- c("EF1", "EF2", "EF3", "EF4", "EF5", "EF6", "EF7", "EF8", "EF9", "EF10")
+
 factorcols <- c(
   "ID",
   "SEXO",
@@ -59,16 +61,7 @@ factorcols <- c(
   "INTERFERE",
   "AGUDA",
   "CIRURGIA",
-  "EF1",
-  "EF2",
-  "EF3",
-  "EF4",
-  "EF5",
-  "EF6",
-  "EF7",
-  "EF8",
-  "EF9",
-  "EF10"
+  ef.colnames
 )
 participantes[, (factorcols) := lapply(.SD, factor), .SDcols = factorcols]
 rm(factorcols)
@@ -76,3 +69,6 @@ rm(factorcols)
 #esportes princ/sec
 levels(esportes$PRINCIPAL) <- c("Secundário", "Principal")
 esportes$PRINCIPAL <- relevel(esportes$PRINCIPAL, "Principal")
+
+# Categorização do TEMPO
+participantes$TEMPO.cat <- cut(participantes$TEMPO, breaks = c(-Inf, 90, Inf), labels = c("<= 90d", "> 90d"))
