@@ -203,7 +203,7 @@ pander(tab.esportes, split.table = Inf)
 pander(tab.tempo, split.table = Inf)
 # pander(tab.tempo[, -4], split.table = Inf)
 ```
-Table: **Tabela xx** Associação entre o tempo até o diagnóstico e os exames físicos.
+Table: **Tabela xx** Associação entre o tempo até o diagnóstico e os exames físicos e nível esportivo.
 
 <!-- # Exceções e Desvios do teste -->
 
