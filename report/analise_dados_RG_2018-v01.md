@@ -205,7 +205,12 @@ dos esportes secundários dos atletas com pubalgia (8 de 14).
 |     **PROFISSIONAL**      | 20 (16.9) | 24 (18.9) |       |       |
 |     **RECREACIONAL**      | 88 (74.6) | 94 (74.0) |       |       |
 | **UNIVERSITÁRIO/ESCOLAR** | 10 ( 8.5) | 9 ( 7.1)  |       |       |
-Table: **Tabela xx** Associação entre o tempo até o diagnóstico e os exames físicos e nível esportivo.
+|           **n**           |    118    |    127    |       |       |
+|       **IDADE (%)**       |           |           | 0.878 | exact |
+|       **< 25 anos**       | 20 (16.9) | 25 (19.7) |       |       |
+|      **25-40 anos**       | 70 (59.3) | 72 (56.7) |       |       |
+|       **> 40 anos**       | 28 (23.7) | 30 (23.6) |       |       |
+Table: **Tabela xx** Associação entre o tempo até o diagnóstico e os exames físicos, nível esportivo e idade.
 
 <!-- # Exceções e Desvios do teste -->
 
