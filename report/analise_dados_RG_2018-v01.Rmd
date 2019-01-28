@@ -93,6 +93,8 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 
 # Resultados
 
+## Pacientes do estudo
+
 ## Distribuição das modalidades esportivas praticadas pelos atletas com pubalgia
 
 ```{r atividades esportivas}
@@ -162,7 +164,6 @@ dos esportes secundários dos atletas com pubalgia (`r sum(N.sec.corr[1:2])` de 
 
 ![**Figura 3** Esportes auxiliares à corrida](../figures/esp_sec_corr.png)
 
-
 ### Atividades auxiliares dos praticantes de musculação
 
 ```{r atividades secundárias musculação}
@@ -180,30 +181,11 @@ dos esportes secundários dos atletas com pubalgia (`r sum(N.sec.musc[1:2])` de 
 
 ![**Figura 4** Esportes auxiliares à musculação](../figures/esp_sec_musc.png)
 
-## Avaliação das modalides esportivas
-
-### Associação com os exames físicos
+## Performance dos exames físicos
 
 ```{r}
 pander(tab.ef)
 ```
-
-### Associação com desfecho cirúrgico e movimentos em que sente dor
-
-```{r}
-pander(tab.esportes, split.table = Inf)
-# pander(tab.esportes[, -6], split.table = Inf)
-```
-
-## Avaliação do tempo até o diagnóstico
-
-### Associação com os exames físicos
-
-```{r}
-pander(tab.tempo, split.table = Inf)
-# pander(tab.tempo[, -4], split.table = Inf)
-```
-Table: **Tabela xx** Associação entre o tempo até o diagnóstico e os exames físicos, nível esportivo e idade.
 
 <!-- # Exceções e Desvios do teste -->
 

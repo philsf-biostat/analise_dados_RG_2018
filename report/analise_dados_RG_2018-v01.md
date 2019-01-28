@@ -77,6 +77,8 @@ Esta análise foi realizada utilizando-se o software `R` versão 3.4.4.
 
 # Resultados
 
+## Descrição dos pacientes
+
 ## Distribuição das modalidades esportivas praticadas pelos atletas com pubalgia
 
 
@@ -134,7 +136,6 @@ dos esportes secundários dos atletas com pubalgia (17 de 29).
 
 ![**Figura 3** Esportes auxiliares à corrida](../figures/esp_sec_corr.png)
 
-
 ### Atividades auxiliares dos praticantes de musculação
 
 
@@ -148,69 +149,22 @@ dos esportes secundários dos atletas com pubalgia (8 de 14).
 
 ![**Figura 4** Esportes auxiliares à musculação](../figures/esp_sec_musc.png)
 
-## Avaliação das modalides esportivas
-
-### Associação com os exames físicos
+## Performance dos exames físicos
 
 
-|    &nbsp;    |  Overall   |
-|:------------:|:----------:|
-|    **n**     |    245     |
-| **EF1 (%)**  | 77 (31.4)  |
-| **EF2 (%)**  | 188 (76.7) |
-| **EF3 (%)**  | 166 (67.8) |
-| **EF4 (%)**  | 190 (77.6) |
-| **EF5 (%)**  | 153 (62.4) |
-| **EF6 (%)**  | 102 (41.6) |
-| **EF7 (%)**  | 168 (68.6) |
-| **EF8 (%)**  | 71 (29.0)  |
-| **EF9 (%)**  | 37 (15.1)  |
-| **EF10 (%)** | 120 (49.0) |
-
-### Associação com desfecho cirúrgico e movimentos em que sente dor
-
-
-|      &nbsp;       |  FUTEBOL  |  CORRIDA  | MUSCULAÇÃO |  OUTROS   |   p   | test  |
-|:-----------------:|:---------:|:---------:|:----------:|:---------:|:-----:|:-----:|
-|       **n**       |    148    |    81     |     70     |    114    |       |       |
-| **CIRURGIA (%)**  |  8 (5.4)  |  4 (4.9)  | 10 (14.3)  | 19 (16.7) | 0.005 | exact |
-|       **n**       |    363    |    90     |     33     |    161    |       |       |
-| **MOVIMENTO (%)** |           |           |            |           | 0.007 |       |
-|       **1**       | 88 (24.2) | 13 (14.8) |  7 (22.6)  | 42 (26.2) |       |       |
-|       **2**       | 52 (14.3) | 28 (31.8) |  8 (25.8)  | 29 (18.1) |       |       |
-|       **3**       | 80 (22.0) | 25 (28.4) |  7 (22.6)  | 34 (21.2) |       |       |
-|       **4**       | 46 (12.7) | 10 (11.4) |  4 (12.9)  | 26 (16.2) |       |       |
-|       **5**       | 97 (26.7) | 12 (13.6) |  5 (16.1)  | 29 (18.1) |       |       |
-
-## Avaliação do tempo até o diagnóstico
-
-### Associação com os exames físicos
-
-
-|          &nbsp;           |  <= 90d   |   > 90d   |   p   | test  |
-|:-------------------------:|:---------:|:---------:|:-----:|:-----:|
-|           **n**           |    118    |    127    |       |       |
-|        **EF1 (%)**        | 33 (28.0) | 44 (34.6) | 0.274 | exact |
-|        **EF2 (%)**        | 94 (79.7) | 94 (74.0) | 0.364 | exact |
-|        **EF3 (%)**        | 83 (70.3) | 83 (65.4) | 0.416 | exact |
-|        **EF4 (%)**        | 93 (78.8) | 97 (76.4) | 0.759 | exact |
-|        **EF5 (%)**        | 72 (61.0) | 81 (63.8) | 0.693 | exact |
-|        **EF6 (%)**        | 44 (37.3) | 58 (45.7) | 0.197 | exact |
-|        **EF7 (%)**        | 76 (64.4) | 92 (72.4) | 0.215 | exact |
-|        **EF8 (%)**        | 36 (30.5) | 35 (27.6) | 0.673 | exact |
-|        **EF9 (%)**        | 13 (11.0) | 24 (18.9) | 0.108 | exact |
-|       **EF10 (%)**        | 59 (50.0) | 61 (48.0) | 0.799 | exact |
-|           **n**           |    118    |    127    |       |       |
-|       **NIVEL (%)**       |           |           | 0.883 | exact |
-|     **PROFISSIONAL**      | 20 (16.9) | 24 (18.9) |       |       |
-|     **RECREACIONAL**      | 88 (74.6) | 94 (74.0) |       |       |
-| **UNIVERSITÁRIO/ESCOLAR** | 10 ( 8.5) | 9 ( 7.1)  |       |       |
-|           **n**           |    118    |    127    |       |       |
-|       **IDADE (%)**       |           |           | 0.878 | exact |
-|       **< 25 anos**       | 20 (16.9) | 25 (19.7) |       |       |
-|      **25-40 anos**       | 70 (59.3) | 72 (56.7) |       |       |
-|       **> 40 anos**       | 28 (23.7) | 30 (23.6) |       |       |
-Table: **Tabela xx** Associação entre o tempo até o diagnóstico e os exames físicos, nível esportivo e idade.
+|      &nbsp;      |  Overall   |
+|:----------------:|:----------:|
+|      **n**       |    245     |
+| **EF1 = 1 (%)**  | 77 (31.4)  |
+| **EF2 = 1 (%)**  | 188 (76.7) |
+| **EF3 = 1 (%)**  | 166 (67.8) |
+| **EF4 = 1 (%)**  | 190 (77.6) |
+| **EF5 = 1 (%)**  | 153 (62.4) |
+| **EF6 = 1 (%)**  | 102 (41.6) |
+| **EF7 = 1 (%)**  | 168 (68.6) |
+| **EF8 = 1 (%)**  | 71 (29.0)  |
+| **EF9 = 1 (%)**  | 37 (15.1)  |
+| **EF10 = 1 (%)** | 120 (49.0) |
 
 <!-- # Exceções e Desvios do teste -->
 
