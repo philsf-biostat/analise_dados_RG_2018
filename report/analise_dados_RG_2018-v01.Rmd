@@ -93,6 +93,8 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 
 # Resultados
 
+## Pacientes do estudo
+
 ## Distribuição das modalidades esportivas praticadas pelos atletas com pubalgia
 
 ```{r atividades esportivas}
@@ -161,7 +163,6 @@ Juntos estas duas modalidades representam
 dos esportes secundários dos atletas com pubalgia (`r sum(N.sec.corr[1:2])` de `r sum(N.sec.corr)`).
 
 ![**Figura 3** Esportes auxiliares à corrida](../figures/esp_sec_corr.png)
-
 
 ### Atividades auxiliares dos praticantes de musculação
 
