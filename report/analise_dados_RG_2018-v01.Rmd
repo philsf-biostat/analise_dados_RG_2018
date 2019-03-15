@@ -98,10 +98,12 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 ```{r}
 N.amostra <- length(levels(participantes$ID))
 N.sexo <- table(participantes$SEXO)
+N.nivel <- table(participantes$NIVEL)
 ```
 
 Esta série de casos contou com `r N.amostra` participantes, dos quais `r N.sexo["F"]` era mulheres e `r N.sexo["M"]` eram homens.
 Os participantes do estudo tinham idades entre `r min(participantes$IDADE)` e `r max(participantes$IDADE)` anos.
+Os participantes foram perguntados sobre o nível de dedicação que eles praticam seu esporte: `r N.nivel["PROFISSIONAL"]` praticam no nível profissional, `r N.nivel["UNIVERSITÁRIO/ESCOLAR"]` no nível universitário/escolar e `r N.nivel["RECREACIONAL"]` praticam recreacionalmente.
 
 ## Distribuição das modalidades esportivas praticadas pelos atletas com pubalgia
 
