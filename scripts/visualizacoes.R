@@ -60,3 +60,8 @@ esp.sec.musc <- ggplot(esportes[ID %in% ids.musculacao & PRINCIPAL == "Secundár
   ylim(c(0, 40)) +
   coord_flip()+
   ggtitle("Esporte acessório quando o principal é musculação")
+
+desc.idade.sexo <- ggplot(participantes, aes(IDADE.cat, fill = SEXO)) +
+  geom_bar() +
+  xlab("Idade") + ylab("Número de Participantes") +
+  theme(legend.position = "bottom")
