@@ -93,7 +93,7 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 
 # Resultados
 
-## Pacientes do estudo
+## Participantes do estudo
 
 ## Distribuição das modalidades esportivas praticadas pelos atletas com pubalgia
 
