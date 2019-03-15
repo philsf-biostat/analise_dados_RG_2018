@@ -71,13 +71,21 @@ toc-title: "Sumário"
 
 
 
-Esta análise foi realizada utilizando-se o software `R` versão 3.4.4.
+Esta análise foi realizada utilizando-se o software `R` versão 3.5.3.
 
 
 
 # Resultados
 
-## Descrição dos pacientes
+## Participantes do estudo
+
+
+
+Esta série de casos contou com 245 participantes, dos quais 29 era mulheres e 216 eram homens.
+Os participantes do estudo tinham idades entre 14 e 75 anos.
+Os participantes foram perguntados sobre o nível de dedicação que eles praticam seu esporte: 44 praticam no nível profissional, 19 no nível universitário/escolar e 182 praticam recreacionalmente.
+36 participantes relataram sentir dor aguda.
+Após as avaliações médicas 23 participantes receberam indicação de algum procedimento cirúrgico para mitigar os sintomas.
 
 ## Distribuição das modalidades esportivas praticadas pelos atletas com pubalgia
 
