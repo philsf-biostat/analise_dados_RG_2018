@@ -67,6 +67,9 @@ factorcols <- c(
 participantes[, (factorcols) := lapply(.SD, factor), .SDcols = factorcols]
 rm(factorcols)
 
+# interfere?
+levels(participantes$INTERFERE) <- c("Não", "Sim")
+
 #esportes princ/sec
 levels(esportes$PRINCIPAL) <- c("Secundário", "Principal")
 esportes$PRINCIPAL <- relevel(esportes$PRINCIPAL, "Principal")
