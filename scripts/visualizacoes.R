@@ -80,3 +80,8 @@ desc.interf.sexo <- ggplot(participantes, aes(INTERFERE, fill = SEXO)) +
   geom_bar() +
   xlab("Interfere na atividade") + ylab("Número de Participantes") +
   theme(legend.position = "bottom")
+
+desc.sexo <- ggplot(participantes, aes(SEXO)) +
+  geom_bar() +
+  xlab("Sexo") + ylab("Número de Participantes") +
+  theme(legend.position = "bottom")
