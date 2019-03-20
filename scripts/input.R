@@ -80,6 +80,7 @@ participantes$TEMPO.cat <- cut(participantes$TEMPO, breaks = c(-Inf, 90, Inf), l
 
 # Categorização da IDADE
 participantes$IDADE.cat <- cut(participantes$IDADE, breaks = c(-Inf, 24, 40, Inf), labels = c("< 25 anos", "25-40 anos", "> 40 anos"))
+# participantes$IDADE.cat <- cut(participantes$IDADE, breaks = c(-Inf, 24, 34, 44, Inf), labels = c("< 25 anos", "25-35 anos", "35-45 anos", "> 40 anos"))
 
 # Categorização da frequência de treino
 participantes$FREQ.cat <- cut(participantes$FREQ, breaks = c(0, 3, Inf), labels = c("Até 3", "4 ou mais"))
