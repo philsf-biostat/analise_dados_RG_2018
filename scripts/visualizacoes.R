@@ -75,3 +75,8 @@ desc.freq.sexo <- ggplot(participantes, aes(FREQ.cat, fill = SEXO)) +
   geom_bar() +
   xlab("Treinos por semana") + ylab("Número de Participantes") +
   theme(legend.position = "bottom")
+
+desc.interf.sexo <- ggplot(participantes, aes(INTERFERE, fill = SEXO)) +
+  geom_bar() +
+  xlab("Interfere na atividade") + ylab("Número de Participantes") +
+  theme(legend.position = "bottom")
