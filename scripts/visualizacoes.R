@@ -65,3 +65,8 @@ desc.idade.sexo <- ggplot(participantes, aes(IDADE.cat, fill = SEXO)) +
   geom_bar() +
   xlab("Idade") + ylab("Número de Participantes") +
   theme(legend.position = "bottom")
+
+desc.nivel.sexo <- ggplot(participantes, aes(NIVEL, fill = SEXO)) +
+  geom_bar() +
+  xlab("Nível de dedicação") + ylab("Número de Participantes") +
+  theme(legend.position = "bottom")
