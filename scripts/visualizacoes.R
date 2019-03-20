@@ -61,22 +61,22 @@ esp.sec.musc <- ggplot(esportes[ID %in% ids.musculacao & PRINCIPAL == "Secundár
   coord_flip()+
   ggtitle("Esporte acessório quando o principal é musculação")
 
-desc.idade.sexo <- ggplot(participantes, aes(IDADE.cat, fill = SEXO)) +
+desc.idade <- ggplot(participantes, aes(IDADE.cat)) +
   geom_bar() +
   xlab("Idade") + ylab("Número de Participantes") +
   theme(legend.position = "bottom")
 
-desc.nivel.sexo <- ggplot(participantes, aes(NIVEL, fill = SEXO)) +
+desc.nivel <- ggplot(participantes, aes(NIVEL)) +
   geom_bar() +
   xlab("Nível de dedicação") + ylab("Número de Participantes") +
   theme(legend.position = "bottom")
 
-desc.freq.sexo <- ggplot(participantes, aes(FREQ.cat, fill = SEXO)) +
+desc.freq <- ggplot(participantes, aes(FREQ.cat)) +
   geom_bar() +
   xlab("Treinos por semana") + ylab("Número de Participantes") +
   theme(legend.position = "bottom")
 
-desc.interf.sexo <- ggplot(participantes, aes(INTERFERE, fill = SEXO)) +
+desc.interf <- ggplot(participantes, aes(INTERFERE)) +
   geom_bar() +
   xlab("Interfere na atividade") + ylab("Número de Participantes") +
   theme(legend.position = "bottom")
