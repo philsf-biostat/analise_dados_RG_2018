@@ -70,3 +70,8 @@ desc.nivel.sexo <- ggplot(participantes, aes(NIVEL, fill = SEXO)) +
   geom_bar() +
   xlab("Nível de dedicação") + ylab("Número de Participantes") +
   theme(legend.position = "bottom")
+
+desc.freq.sexo <- ggplot(participantes, aes(FREQ.cat, fill = SEXO)) +
+  geom_bar() +
+  xlab("Treinos por semana") + ylab("Número de Participantes") +
+  theme(legend.position = "bottom")
