@@ -1,5 +1,6 @@
 source('scripts/input.R', encoding = 'UTF-8')
 library(ggplot2)
+library(scales)
 
 # ggplot(esportes[PRINCIPAL==1], aes(reorder(ESPORTE, ESPORTE, function(x) length(x)))) +
 # esp.princ <- ggplot(esportes[PRINCIPAL==1], aes(reorder(ESPORTE, ESPORTE, length))) +
