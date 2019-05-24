@@ -87,14 +87,14 @@ desc.sexo <- ggplot(participantes, aes(SEXO)) +
   xlab("Sexo") + ylab("Número de Participantes") +
   theme(legend.position = "bottom")
 
-desc.movim <- ggplot(movim, aes(MOVIMENTO)) +
+desc.movim <- ggplot(movim, aes(reorder(MOVIMENTO, MOVIMENTO, length))) +
   geom_bar(aes(y = (..count..)/sum(..count..))) +
   scale_y_continuous(labels=percent) +
   xlab("Movimento em que sente dor") + ylab("") +
   coord_flip() +
   theme(legend.position = "bottom")
 
-desc.local <- ggplot(locais, aes(LOCAL)) +
+desc.local <- ggplot(locais, aes(reorder(LOCAL, LOCAL, length))) +
   geom_bar(aes(y = (..count..)/sum(..count..))) +
   scale_y_continuous(labels=percent) +
   xlab("Local em que sente dor") + ylab("") +
