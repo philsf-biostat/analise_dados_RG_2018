@@ -195,6 +195,12 @@ dos esportes secundários dos atletas com pubalgia (`r sum(N.sec.musc[1:2])` de 
 
 ## Características de dor
 
+```{r movimentos}
+pander(movim.tab)
+```
+
+Table: **Tabela xx** Movimentos em que o participante sente dor.
+
 ## Performance dos exames físicos
 
 A tabela 1 mostra os resultados dos dez exames físicos (EF) administrados nos participantes do estudo.
