@@ -199,6 +199,8 @@ dos esportes secundários dos atletas com pubalgia (`r sum(N.sec.musc[1:2])` de 
 pander(tab.ef)
 ```
 
+Table: **Tabela 2** Performance dos 10 exames físicos para detectar a pubalgia nos atletas estudados.
+
 <!-- # Exceções e Desvios do teste -->
 
 # Discussão
