@@ -193,6 +193,8 @@ dos esportes secundários dos atletas com pubalgia (`r sum(N.sec.musc[1:2])` de 
 
 ![**Figura 4** Esportes auxiliares à musculação](../figures/esp_sec_musc.png)
 
+## Características de dor
+
 ## Performance dos exames físicos
 
 A tabela 1 mostra os resultados dos dez exames físicos (EF) administrados nos participantes do estudo.
