@@ -71,7 +71,7 @@ toc-title: "Sumário"
 
 
 
-Esta análise foi realizada utilizando-se o software `R` versão 3.5.3.
+Esta análise foi realizada utilizando-se o software `R` versão 3.6.0.
 
 
 
@@ -159,20 +159,27 @@ dos esportes secundários dos atletas com pubalgia (8 de 14).
 
 ## Performance dos exames físicos
 
+A tabela 2 mostra os resultados dos dez exames físicos (EF) administrados nos participantes do estudo.
+Cinco exames (EF1, EF6, EF8, EF9 e EF10) demonstraram ser piores que o acaso para detectar a pubalgia presente nos participantes, obtendo resultado positivo em menos de 50% dos casos.
+Dois exames, por outro lado, tiveram desempenho considerado alto.
+Os exames EF2, EF4 demonstraram resultado positivo em 70% ou mais dos casos.
 
-|      &nbsp;      |  Overall   |
-|:----------------:|:----------:|
-|      **n**       |    245     |
-| **EF1 = 1 (%)**  | 77 (31.4)  |
-| **EF2 = 1 (%)**  | 188 (76.7) |
-| **EF3 = 1 (%)**  | 166 (67.8) |
-| **EF4 = 1 (%)**  | 190 (77.6) |
-| **EF5 = 1 (%)**  | 153 (62.4) |
-| **EF6 = 1 (%)**  | 102 (41.6) |
-| **EF7 = 1 (%)**  | 168 (68.6) |
-| **EF8 = 1 (%)**  | 71 (29.0)  |
-| **EF9 = 1 (%)**  | 37 (15.1)  |
-| **EF10 = 1 (%)** | 120 (49.0) |
+
+|    &nbsp;    |  Overall   |
+|:------------:|:----------:|
+|    **n**     |    245     |
+| **EF1 (%)**  | 77 (31.4)  |
+| **EF2 (%)**  | 188 (76.7) |
+| **EF3 (%)**  | 166 (67.8) |
+| **EF4 (%)**  | 190 (77.6) |
+| **EF5 (%)**  | 153 (62.4) |
+| **EF6 (%)**  | 102 (41.6) |
+| **EF7 (%)**  | 168 (68.6) |
+| **EF8 (%)**  | 71 (29.0)  |
+| **EF9 (%)**  | 37 (15.1)  |
+| **EF10 (%)** | 120 (49.0) |
+
+Table: **Tabela 2** Performance dos 10 exames físicos para detectar a pubalgia nos atletas estudados.
 
 <!-- # Exceções e Desvios do teste -->
 
@@ -184,6 +191,11 @@ Neste estudo, no entanto, os atletas que demonstraram preferência por este espo
 A discrepância na opção por atividades acessórias é marcante:
 81 jogadores de futebol relataram praticar atividades secundárias,
 enquanto que os dados de atletas de corrida e musculação são consideravelmente (29 e 14, respectivamente).
+
+Avaliações clínicas podem ser ferramentas úteis no diagnóstico precoce da pubalgia.
+Nossas observações indicam que dois dos exames físicos avaliados (EF2 e EF4) são propostas promissoras apresentando resultados positivos, respectivamente, 77% e 78% dos casos.
+Para confirmar esta hipótese, é necessário um estudo da capacidade discriminatória destes procedimentos a fim de estimar sua sensibilidade e especificidade.
+Para determinar a metodologia mais adequada de avaliar estes exames, é necessário inicialmente definir o escopo de sua aplicação, se como diagnóstico inicial (*screening*), ou diagnóstico confirmatório.
 
 # Conclusões
 
