@@ -93,3 +93,10 @@ desc.movim <- ggplot(movim, aes(MOVIMENTO)) +
   xlab("Movimento em que sente dor") + ylab("") +
   coord_flip() +
   theme(legend.position = "bottom")
+
+desc.local <- ggplot(locais, aes(LOCAL)) +
+  geom_bar(aes(y = (..count..)/sum(..count..))) +
+  scale_y_continuous(labels=percent) +
+  xlab("Local em que sente dor") + ylab("") +
+  coord_flip() +
+  theme(legend.position = "bottom")
