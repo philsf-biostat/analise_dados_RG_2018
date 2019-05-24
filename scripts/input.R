@@ -52,7 +52,7 @@ participantes <- participantes[, .(
   EF10
 )]
 
-ef.colnames <- c("EF1", "EF2", "EF3", "EF4", "EF5", "EF6", "EF7", "EF8", "EF9", "EF10")
+ef.colnames <- paste0("EF", 1:10)
 
 factorcols <- c(
   "ID",
