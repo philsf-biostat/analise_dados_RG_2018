@@ -157,6 +157,25 @@ dos esportes secundários dos atletas com pubalgia (8 de 14).
 
 ![**Figura 4** Esportes auxiliares à musculação](../figures/esp_sec_musc.png)
 
+## Características de dor
+
+
+
+<!-- Table: **Tabela xx** Movimentos em que o participante sente dor. -->
+
+**DESCREVER**
+
+- N de participantes em que a dor interfere na prática esportiva: 243
+- % de participantes em que a dor interfere na prática esportiva: 99.2%
+- N de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): 49, 80, 56, 30, 30
+- % de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): 20.0%, 32.7%, 22.9%, 12.2%, 12.2%
+- N de locais em que participantes sentem (1 local, a todos os 5 locais): 65, 110, 48, 15, 4, 3
+- % de locais em que participantes sentem (1 local, a todos os 5 locais): 26.5%, 44.9%, 19.6%, 6.1%, 1.6%, 1.2%
+
+![**Figura xx** Locais do púbis em que o participante sente dor](../figures/desc_local.png)
+
+![**Figura xx** Movimentos da prática esportiva em que o participante sente dor](../figures/desc_movim.png)
+
 ## Performance dos exames físicos
 
 A tabela 1 mostra os resultados dos dez exames físicos (EF) administrados nos participantes do estudo.
