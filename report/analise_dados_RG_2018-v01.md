@@ -159,7 +159,7 @@ dos esportes secundários dos atletas com pubalgia (8 de 14).
 
 ## Performance dos exames físicos
 
-A tabela 2 mostra os resultados dos dez exames físicos (EF) administrados nos participantes do estudo.
+A tabela 1 mostra os resultados dos dez exames físicos (EF) administrados nos participantes do estudo.
 Cinco exames (EF1, EF6, EF8, EF9 e EF10) demonstraram ser piores que o acaso para detectar a pubalgia presente nos participantes, obtendo resultado positivo em menos de 50% dos casos.
 Dois exames, por outro lado, tiveram desempenho considerado alto.
 Os exames EF2, EF4 demonstraram resultado positivo em 70% ou mais dos casos.
@@ -179,7 +179,7 @@ Os exames EF2, EF4 demonstraram resultado positivo em 70% ou mais dos casos.
 | **EF9 (%)**  | 37 (15.1)  |
 | **EF10 (%)** | 120 (49.0) |
 
-Table: **Tabela 2** Performance dos 10 exames físicos para detectar a pubalgia nos atletas estudados.
+Table: **Tabela 1** Performance dos 10 exames físicos para detectar a pubalgia nos atletas estudados.
 
 <!-- # Exceções e Desvios do teste -->
 
