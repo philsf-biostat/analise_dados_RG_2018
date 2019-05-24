@@ -196,6 +196,9 @@ dos esportes secundários dos atletas com pubalgia (`r sum(N.sec.musc[1:2])` de 
 ## Características de dor
 
 ```{r dor}
+interfere.tab.n <- table(participantes$INTERFERE)
+interfere.tab.prop <- prop.table(table(participantes$INTERFERE))
+
 # pander(movim.tab)
 movim.tab.n <- table(table(movim$ID)) # número de movimentos em que os participantes sentem dor
 movim.tab.prop <- prop.table(table(table(movim$ID))) # prop de movimentos em que os participantes sentem dor
