@@ -201,6 +201,8 @@ pander(movim.tab)
 
 Table: **Tabela xx** Movimentos em que o participante sente dor.
 
+![**Figura xx** Movimentos da prática esportiva em que o participante sente dor](../figures/desc_movim.png)
+
 ## Performance dos exames físicos
 
 A tabela 1 mostra os resultados dos dez exames físicos (EF) administrados nos participantes do estudo.
