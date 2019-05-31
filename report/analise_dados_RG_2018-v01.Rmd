@@ -240,6 +240,17 @@ pander(tab.ef)
 
 Table: **Tabela 1** Performance dos 10 exames físicos para detectar a pubalgia nos atletas estudados.
 
+EF1 = Compressão ortostática do compartimento anterior;  
+EF2 = Flexão simultânea do Quadril e do Abdômen contra resistência;  
+EF3 = Contração dos adutores contra resistência com joelho em flexão;  
+EF4 = Contração dos adutores contra resistência com joelho em extensão;  
+EF5 = Palpação do anel inguinal;  
+EF6 = Palpação do corpo do pubis;  
+EF7 =  Palpação da inserção do Adutor no Púbis;  
+EF8 = Flexibilidade dos isquiotibiais (Encurtamento posterior);  
+EF9 = Arco de movimento do quadril (Limiração da RI);  
+EF10 = Teste dos Oblíquos contra resistência (Manobra de Grava).
+
 <!-- # Exceções e Desvios do teste -->
 
 # Discussão

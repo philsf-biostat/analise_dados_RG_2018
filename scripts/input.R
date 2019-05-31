@@ -103,3 +103,13 @@ levels(locais$LOCAL) <- c(
   "Bolsa escrotal",
   "Coluna lombar - posterior"
 )
+
+# Dor (sente a dor)
+levels(dor$DOR) <- c(
+  "Tosse",
+  "Espirro",
+  "Relação sexual",
+  "Esporte",
+  "Corrida",
+  "Caminhar"
+)
