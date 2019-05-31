@@ -218,6 +218,10 @@ local.tab.prop <- prop.table(table(table(locais$ID))) # prop de movimentos em qu
 1. N de locais em que participantes sentem (1 local, a todos os 5 locais): `r local.tab.n`
 1. % de locais em que participantes sentem (1 local, a todos os 5 locais): `r format.pct(local.tab.prop)`
 
+Observações:
+
+- itens 3 e 4: Em quantos movimentos cada participante avaliado sente dor? (resultaedo que complementa a fig 6)
+- itens 5 e 6: Em quantos locais cada participante avaliado sente dor? (resultado que complementa a fig 5)
 
 ![**Figura 5** Locais do púbis em que o participante sente dor](../figures/desc_local.png)
 
