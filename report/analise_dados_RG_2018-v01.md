@@ -165,16 +165,21 @@ dos esportes secundários dos atletas com pubalgia (8 de 14).
 
 **DESCREVER**
 
-- N de participantes em que a dor interfere na prática esportiva: 243
-- % de participantes em que a dor interfere na prática esportiva: 99.2%
-- N de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): 49, 80, 56, 30, 30
-- % de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): 20.0%, 32.7%, 22.9%, 12.2%, 12.2%
-- N de locais em que participantes sentem (1 local, a todos os 5 locais): 65, 110, 48, 15, 4, 3
-- % de locais em que participantes sentem (1 local, a todos os 5 locais): 26.5%, 44.9%, 19.6%, 6.1%, 1.6%, 1.2%
+1. N de participantes em que a dor interfere na prática esportiva: 243
+1. % de participantes em que a dor interfere na prática esportiva: 99.2%
+1. N de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): 49, 80, 56, 30, 30
+1. % de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): 20.0%, 32.7%, 22.9%, 12.2%, 12.2%
+1. N de locais em que participantes sentem (1 local, a todos os 5 locais): 65, 110, 48, 15, 4, 3
+1. % de locais em que participantes sentem (1 local, a todos os 5 locais): 26.5%, 44.9%, 19.6%, 6.1%, 1.6%, 1.2%
 
-![**Figura xx** Locais do púbis em que o participante sente dor](../figures/desc_local.png)
+Observações:
 
-![**Figura xx** Movimentos da prática esportiva em que o participante sente dor](../figures/desc_movim.png)
+- itens 3 e 4: Em quantos movimentos cada participante avaliado sente dor? (resultaedo que complementa a fig 6)
+- itens 5 e 6: Em quantos locais cada participante avaliado sente dor? (resultado que complementa a fig 5)
+
+![**Figura 5** Locais do púbis em que o participante sente dor](../figures/desc_local.png)
+
+![**Figura 6** Movimentos da prática esportiva em que o participante sente dor](../figures/desc_movim.png)
 
 ## Performance dos exames físicos
 
