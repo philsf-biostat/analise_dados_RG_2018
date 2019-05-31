@@ -1,5 +1,6 @@
 source('scripts/input.R', encoding = 'UTF-8')
 library(ggplot2)
+library(scales)
 
 # ggplot(esportes[PRINCIPAL==1], aes(reorder(ESPORTE, ESPORTE, function(x) length(x)))) +
 # esp.princ <- ggplot(esportes[PRINCIPAL==1], aes(reorder(ESPORTE, ESPORTE, length))) +
@@ -84,4 +85,18 @@ desc.interf <- ggplot(participantes, aes(INTERFERE)) +
 desc.sexo <- ggplot(participantes, aes(SEXO)) +
   geom_bar() +
   xlab("Sexo") + ylab("Número de Participantes") +
+  theme(legend.position = "bottom")
+
+desc.movim <- ggplot(movim, aes(reorder(MOVIMENTO, MOVIMENTO, length))) +
+  geom_bar(aes(y = (..count..)/sum(..count..))) +
+  scale_y_continuous(labels=percent) +
+  xlab("Movimento em que sente dor") + ylab("") +
+  coord_flip() +
+  theme(legend.position = "bottom")
+
+desc.local <- ggplot(locais, aes(reorder(LOCAL, LOCAL, length))) +
+  geom_bar(aes(y = (..count..)/sum(..count..))) +
+  scale_y_continuous(labels=percent) +
+  xlab("Local em que sente dor") + ylab("") +
+  coord_flip() +
   theme(legend.position = "bottom")

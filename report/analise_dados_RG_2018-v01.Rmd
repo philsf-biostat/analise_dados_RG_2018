@@ -193,6 +193,40 @@ dos esportes secundários dos atletas com pubalgia (`r sum(N.sec.musc[1:2])` de 
 
 ![**Figura 4** Esportes auxiliares à musculação](../figures/esp_sec_musc.png)
 
+## Características de dor
+
+```{r dor}
+interfere.tab.n <- table(participantes$INTERFERE)
+interfere.tab.prop <- prop.table(table(participantes$INTERFERE))
+
+# pander(movim.tab)
+movim.tab.n <- table(table(movim$ID)) # número de movimentos em que os participantes sentem dor
+movim.tab.prop <- prop.table(table(table(movim$ID))) # prop de movimentos em que os participantes sentem dor
+
+local.tab.n <- table(table(locais$ID)) # número de movimentos em que os participantes sentem dor
+local.tab.prop <- prop.table(table(table(locais$ID))) # prop de movimentos em que os participantes sentem dor
+```
+
+<!-- Table: **Tabela xx** Movimentos em que o participante sente dor. -->
+
+**DESCREVER**
+
+1. N de participantes em que a dor interfere na prática esportiva: `r interfere.tab.n[2]`
+1. % de participantes em que a dor interfere na prática esportiva: `r format.pct(interfere.tab.prop[2])`
+1. N de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): `r movim.tab.n`
+1. % de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): `r format.pct(movim.tab.prop)`
+1. N de locais em que participantes sentem (1 local, a todos os 5 locais): `r local.tab.n`
+1. % de locais em que participantes sentem (1 local, a todos os 5 locais): `r format.pct(local.tab.prop)`
+
+Observações:
+
+- itens 3 e 4: Em quantos movimentos cada participante avaliado sente dor? (resultaedo que complementa a fig 6)
+- itens 5 e 6: Em quantos locais cada participante avaliado sente dor? (resultado que complementa a fig 5)
+
+![**Figura 5** Locais do púbis em que o participante sente dor](../figures/desc_local.png)
+
+![**Figura 6** Movimentos da prática esportiva em que o participante sente dor](../figures/desc_movim.png)
+
 ## Performance dos exames físicos
 
 A tabela 1 mostra os resultados dos dez exames físicos (EF) administrados nos participantes do estudo.

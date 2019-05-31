@@ -8,7 +8,8 @@ install.packages(c(
   "pander",
   "readxl",
   "stringr",
-  "tableone"
+  "tableone",
+  "scales"
 ))
 
 devtools::install_github("philsf/philsfmisc")
