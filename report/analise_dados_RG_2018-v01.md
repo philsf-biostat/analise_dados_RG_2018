@@ -93,7 +93,7 @@ Após as avaliações médicas 23 participantes receberam indicação de algum p
 
 
 
-Nesta série de casos, os atletas com pubalgia relataram praticar 25 modalidades esportivas distintas (figura 1).
+Nesta série de casos, os atletas com pubalgia relataram praticar 25 modalidades esportivas distintas (**figura 1**).
 Três esportes se destacam como os mais comuns entre os participantes, seja como atividade esportiva principal ou secundária.
 Quando incluímos todos os atletas que praticam as modalidades esportivas sem considerar a atividade principal ou secundária temos
 o futebol (N = 148),
@@ -193,7 +193,7 @@ A **figura 6** mostra o número de participates que sente dor em cada movimento 
 
 ## Performance dos exames físicos
 
-A tabela 1 mostra os resultados dos dez exames físicos (EF) administrados nos participantes do estudo.
+A **tabela 1** mostra os resultados dos dez exames físicos (EF) administrados nos participantes do estudo.
 Cinco exames (EF1, EF6, EF8, EF9 e EF10) demonstraram ser piores que o acaso para detectar a pubalgia presente nos participantes, obtendo resultado positivo em menos de 50% dos casos.
 Dois exames, por outro lado, tiveram desempenho considerado alto.
 Os exames EF2, EF4 demonstraram resultado positivo em 70% ou mais dos casos.
@@ -230,9 +230,9 @@ EF10 = Teste dos Oblíquos contra resistência (Manobra de Grava).
 
 # Discussão
 
-Esta série de casos avaliou as distribuições dos esportes praticados por atletas com pubalgia em 25 modalidades desportivas, tanto como esporte principal como atividade secundária ou acessória (figura 1).
+Esta série de casos avaliou as distribuições dos esportes praticados por atletas com pubalgia em 25 modalidades desportivas, tanto como esporte principal como atividade secundária ou acessória (**figura 1**).
 Não é surpreendente que, no Brasil, o futebol seja o esporte mais praticado pelos pacientes atendidos com pubalgia.
-Neste estudo, no entanto, os atletas que demonstraram preferência por este esporte são não somente mais frequentes, mas também são os que mais praticam outras atividades (figuras 2, 3 e 4).
+Neste estudo, no entanto, os atletas que demonstraram preferência por este esporte são não somente mais frequentes, mas também são os que mais praticam outras atividades (**figuras 2**, **3** e **4**).
 A discrepância na opção por atividades acessórias é marcante:
 81 jogadores de futebol relataram praticar atividades secundárias,
 enquanto que os dados de atletas de corrida e musculação são consideravelmente (29 e 14, respectivamente).
