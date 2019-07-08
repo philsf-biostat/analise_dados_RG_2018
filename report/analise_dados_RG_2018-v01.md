@@ -71,7 +71,7 @@ toc-title: "Sumário"
 
 
 
-Esta análise foi realizada utilizando-se o software `R` versão 3.6.0.
+Esta análise foi realizada utilizando-se o software `R` versão 3.6.1.
 
 
 
@@ -83,6 +83,8 @@ Esta análise foi realizada utilizando-se o software `R` versão 3.6.0.
 
 Esta série de casos contou com 245 participantes, dos quais 29 era mulheres e 216 eram homens.
 Os participantes do estudo tinham idades entre 14 e 75 anos.
+Atletas atuantes no Brasil, os participantes são oriundos de 21 estados brasileiros (AC, AM, BA, CE, DF, ES, GO, MA, MG, MT, PA, PE, PR, RJ, RN, RO, RR, RS, SC, SE, SP), e 4 atletas estrangeiros (Angola, Guiné, França, Portugal).
+
 Os participantes foram perguntados sobre o nível de dedicação que eles praticam seu esporte: 44 praticam no nível profissional, 19 no nível universitário/escolar e 182 praticam recreacionalmente.
 36 participantes relataram sentir dor aguda.
 Após as avaliações médicas 23 participantes receberam indicação de algum procedimento cirúrgico para mitigar os sintomas.
@@ -174,7 +176,7 @@ dos esportes secundários dos atletas com pubalgia (8 de 14).
 
 Observações:
 
-- itens 3 e 4: Em quantos movimentos cada participante avaliado sente dor? (resultaedo que complementa a fig 6)
+- itens 3 e 4: Em quantos movimentos cada participante avaliado sente dor? (resultado que complementa a fig 6)
 - itens 5 e 6: Em quantos locais cada participante avaliado sente dor? (resultado que complementa a fig 5)
 
 ![**Figura 5** Locais do púbis em que o participante sente dor](../figures/desc_local.png)
@@ -210,8 +212,8 @@ EF2 = Flexão simultânea do Quadril e do Abdômen contra resistência;
 EF3 = Contração dos adutores contra resistência com joelho em flexão;  
 EF4 = Contração dos adutores contra resistência com joelho em extensão;  
 EF5 = Palpação do anel inguinal;  
-EF6 = Palpação do corpo do pubis;  
-EF7 =  Palpação da inserção do Adutor no Púbis;  
+EF6 = Palpação do corpo do Púbis;  
+EF7 = Palpação da inserção do Adutor no Púbis;  
 EF8 = Flexibilidade dos isquiotibiais (Encurtamento posterior);  
 EF9 = Arco de movimento do quadril (Limiração da RI);  
 EF10 = Teste dos Oblíquos contra resistência (Manobra de Grava).
