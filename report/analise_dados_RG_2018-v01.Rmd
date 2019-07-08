@@ -224,7 +224,7 @@ local.tab.prop <- prop.table(table(table(locais$ID))) # prop de movimentos em qu
 
 Observações:
 
-- itens 3 e 4: Em quantos movimentos cada participante avaliado sente dor? (resultaedo que complementa a fig 6)
+- itens 3 e 4: Em quantos movimentos cada participante avaliado sente dor? (resultado que complementa a fig 6)
 - itens 5 e 6: Em quantos locais cada participante avaliado sente dor? (resultado que complementa a fig 5)
 
 ![**Figura 5** Locais do púbis em que o participante sente dor](../figures/desc_local.png)
@@ -249,8 +249,8 @@ EF2 = Flexão simultânea do Quadril e do Abdômen contra resistência;
 EF3 = Contração dos adutores contra resistência com joelho em flexão;  
 EF4 = Contração dos adutores contra resistência com joelho em extensão;  
 EF5 = Palpação do anel inguinal;  
-EF6 = Palpação do corpo do pubis;  
-EF7 =  Palpação da inserção do Adutor no Púbis;  
+EF6 = Palpação do corpo do Púbis;  
+EF7 = Palpação da inserção do Adutor no Púbis;  
 EF8 = Flexibilidade dos isquiotibiais (Encurtamento posterior);  
 EF9 = Arco de movimento do quadril (Limiração da RI);  
 EF10 = Teste dos Oblíquos contra resistência (Manobra de Grava).
