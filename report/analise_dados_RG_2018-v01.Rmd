@@ -82,6 +82,9 @@ Descrever as ocorrências de pubalgia em atletas de diversas modalidades esporti
 
 ## Recepção e tratamento dos dados
 
+Os dados foram recebidos em uma planilha excel, no formato longo (uma observação por linha).
+
+
 # Metodologia
 
 ```{r include=FALSE}
