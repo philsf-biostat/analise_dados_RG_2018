@@ -215,8 +215,8 @@ local.tab.prop <- prop.table(table(table(locais$ID))) # prop de movimentos em qu
 
 `r interfere.tab.n[2]` participantes alegaram que a dor interfere em sua prática esportiva (`r format.pct(interfere.tab.prop[2])`).
 A figura 5 mostra a proporção de participantes que sente dor em cada um dos locais avaliados neste estudo.
-`r local.tab.n[1]` participantes relataram sentir dor em um único local, enquanto `r local.tab.n[2:4]` sentem dor em dois, três e quatro locais respectivamente.
-`r local.tab.n[5]` participantes sentem dor nos 5 locais.
+`r local.tab.n[1]` (`r format.pct(local.tab.prop)[1]`) participantes relataram sentir dor em um único local, enquanto `r local.tab.n[2:4]` sentem dor em dois, três e quatro locais respectivamente (`r format.pct(local.tab.prop)[2:4]`).
+`r local.tab.n[5]` (`r format.pct(local.tab.prop)[5]`) participantes sentem dor nos 5 locais.
 A figura 6 mostra o número de participates que sente dor em cada movimento avaliado neste estudo.
 `r movim.tab.n[1]` participantes (`r format.pct(movim.tab.prop)[1]`) sentem dor em algum dos movimentos avalidos, enquanto `r movim.tab.n[2:4]` sentem dor em dois, três e quatro movimentos respectivamente (`r format.pct(movim.tab.prop)[2:4]`).
 `r movim.tab.n[5]` (`r format.pct(movim.tab.prop)[5]`) participantes sentem dor nos cinco movimentos.
