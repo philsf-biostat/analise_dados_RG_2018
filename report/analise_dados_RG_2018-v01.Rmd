@@ -221,19 +221,19 @@ A **figura 6** mostra o número de participates que sente dor em cada movimento 
 `r movim.tab.n[1]` participantes (`r format.pct(movim.tab.prop)[1]`) sentem dor em algum dos movimentos avalidos, enquanto `r movim.tab.n[2:4]` sentem dor em dois, três e quatro movimentos respectivamente (o que corresponde a `r format.pct(movim.tab.prop)[2:4]` do total, respectivamente).
 `r movim.tab.n[5]` (`r format.pct(movim.tab.prop)[5]`) participantes sentem dor nos cinco movimentos.
 
-**DESCREVER**
+<!-- **DESCREVER** -->
 
-1. N de participantes em que a dor interfere na prática esportiva: `r interfere.tab.n[2]`
-1. % de participantes em que a dor interfere na prática esportiva: `r format.pct(interfere.tab.prop[2])`
-1. N de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): `r movim.tab.n`
-1. % de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): `r format.pct(movim.tab.prop)`
-1. N de locais em que participantes sentem (1 local, a todos os 5 locais): `r local.tab.n`
-1. % de locais em que participantes sentem (1 local, a todos os 5 locais): `r format.pct(local.tab.prop)`
+<!-- 1. N de participantes em que a dor interfere na prática esportiva: `r interfere.tab.n[2]` -->
+<!-- 1. % de participantes em que a dor interfere na prática esportiva: `r format.pct(interfere.tab.prop[2])` -->
+<!-- 1. N de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): `r movim.tab.n` -->
+<!-- 1. % de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): `r format.pct(movim.tab.prop)` -->
+<!-- 1. N de locais em que participantes sentem (1 local, a todos os 5 locais): `r local.tab.n` -->
+<!-- 1. % de locais em que participantes sentem (1 local, a todos os 5 locais): `r format.pct(local.tab.prop)` -->
 
-Observações:
+<!-- Observações: -->
 
-- itens 3 e 4: Em quantos movimentos cada participante avaliado sente dor? (resultado que complementa a fig 6)
-- itens 5 e 6: Em quantos locais cada participante avaliado sente dor? (resultado que complementa a fig 5)
+<!-- - itens 3 e 4: Em quantos movimentos cada participante avaliado sente dor? (resultado que complementa a fig 6) -->
+<!-- - itens 5 e 6: Em quantos locais cada participante avaliado sente dor? (resultado que complementa a fig 5) -->
 
 ![**Figura 5** Locais do púbis em que o participante sente dor](../figures/desc_local.png)
 
