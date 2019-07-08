@@ -214,6 +214,8 @@ local.tab.prop <- prop.table(table(table(locais$ID))) # prop de movimentos em qu
 <!-- Table: **Tabela xx** Movimentos em que o participante sente dor. -->
 
 `r interfere.tab.n[2]` participantes alegaram que a dor interfere em sua prática esportiva (`r format.pct(interfere.tab.prop[2])`).
+`r movim.tab.n[1]` participantes sente dor em algum dos movimentos avalidos, enquanto `r movim.tab.n[2:4]` sentem dor em dois, três e quatro movimentos respectivamente.
+`r movim.tab.n[5]` sentem dor nos cinco movimentos.
 
 **DESCREVER**
 
