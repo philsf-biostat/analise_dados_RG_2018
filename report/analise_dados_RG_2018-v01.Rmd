@@ -105,7 +105,7 @@ UF <- levels(droplevels(participantes[!(UF %in% paises.ext), UF]))
 
 Esta série de casos contou com `r N.amostra` participantes, dos quais `r N.sexo["F"]` era mulheres e `r N.sexo["M"]` eram homens.
 Os participantes do estudo tinham idades entre `r min(participantes$IDADE)` e `r max(participantes$IDADE)` anos.
-Atletas atuantes no Brasil, os participantes são oriundos de `r length(UF)` estados brasileiros (`r UF`), e `r length(paises.ext)` países estrangeiros (`r paises.ext`).
+Atletas atuantes no Brasil, os participantes são oriundos de `r length(UF)` estados brasileiros (`r UF`), e `r length(paises.ext)` atletas estrangeiros (`r paises.ext`).
 
 Os participantes foram perguntados sobre o nível de dedicação que eles praticam seu esporte: `r N.nivel["PROFISSIONAL"]` praticam no nível profissional, `r N.nivel["UNIVERSITÁRIO/ESCOLAR"]` no nível universitário/escolar e `r N.nivel["RECREACIONAL"]` praticam recreacionalmente.
 `r table(participantes$AGUDA)["1"]` participantes relataram sentir dor aguda.
