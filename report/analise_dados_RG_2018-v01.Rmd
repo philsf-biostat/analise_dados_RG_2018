@@ -99,6 +99,8 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 N.amostra <- length(levels(participantes$ID))
 N.sexo <- table(participantes$SEXO)
 N.nivel <- table(participantes$NIVEL)
+paises.ext <- c("Angola", "Guiné", "França", "Portugal")
+UF <- levels(droplevels(participantes[!(UF %in% paises.ext), UF]))
 ```
 
 Esta série de casos contou com `r N.amostra` participantes, dos quais `r N.sexo["F"]` era mulheres e `r N.sexo["M"]` eram homens.
