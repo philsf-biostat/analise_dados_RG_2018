@@ -78,6 +78,8 @@ pander(history, split.cells = 70)
 
 ## Objetivos
 
+Descrever as ocorrências de pubalgia em atletas de diversas modalidades esportivas e níveis de dedicação.
+
 ## Recepção e tratamento dos dados
 
 # Metodologia
