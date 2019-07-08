@@ -165,19 +165,27 @@ dos esportes secundários dos atletas com pubalgia (8 de 14).
 
 <!-- Table: **Tabela xx** Movimentos em que o participante sente dor. -->
 
-**DESCREVER**
+243 participantes alegaram que a dor interfere em sua prática esportiva (99.2%).
+A **figura 5** mostra a proporção de participantes que sente dor em cada um dos locais avaliados neste estudo.
+65 (26.5%) participantes relataram sentir dor em um único local, enquanto 110, 48, 15 sentem dor em dois, três e quatro locais respectivamente (o que corresponde a 44.9%, 19.6%, 6.1% do total, respectivamente).
+4 (1.6%) participantes sentem dor nos 5 locais.
+A **figura 6** mostra o número de participates que sente dor em cada movimento avaliado neste estudo.
+49 participantes (20.0%) sentem dor em algum dos movimentos avalidos, enquanto 80, 56, 30 sentem dor em dois, três e quatro movimentos respectivamente (o que corresponde a 32.7%, 22.9%, 12.2% do total, respectivamente).
+30 (12.2%) participantes sentem dor nos cinco movimentos.
 
-1. N de participantes em que a dor interfere na prática esportiva: 243
-1. % de participantes em que a dor interfere na prática esportiva: 99.2%
-1. N de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): 49, 80, 56, 30, 30
-1. % de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): 20.0%, 32.7%, 22.9%, 12.2%, 12.2%
-1. N de locais em que participantes sentem (1 local, a todos os 5 locais): 65, 110, 48, 15, 4, 3
-1. % de locais em que participantes sentem (1 local, a todos os 5 locais): 26.5%, 44.9%, 19.6%, 6.1%, 1.6%, 1.2%
+<!-- **DESCREVER** -->
 
-Observações:
+<!-- 1. N de participantes em que a dor interfere na prática esportiva: 243 -->
+<!-- 1. % de participantes em que a dor interfere na prática esportiva: 99.2% -->
+<!-- 1. N de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): 49, 80, 56, 30, 30 -->
+<!-- 1. % de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): 20.0%, 32.7%, 22.9%, 12.2%, 12.2% -->
+<!-- 1. N de locais em que participantes sentem (1 local, a todos os 5 locais): 65, 110, 48, 15, 4, 3 -->
+<!-- 1. % de locais em que participantes sentem (1 local, a todos os 5 locais): 26.5%, 44.9%, 19.6%, 6.1%, 1.6%, 1.2% -->
 
-- itens 3 e 4: Em quantos movimentos cada participante avaliado sente dor? (resultado que complementa a fig 6)
-- itens 5 e 6: Em quantos locais cada participante avaliado sente dor? (resultado que complementa a fig 5)
+<!-- Observações: -->
+
+<!-- - itens 3 e 4: Em quantos movimentos cada participante avaliado sente dor? (resultado que complementa a fig 6) -->
+<!-- - itens 5 e 6: Em quantos locais cada participante avaliado sente dor? (resultado que complementa a fig 5) -->
 
 ![**Figura 5** Locais do púbis em que o participante sente dor](../figures/desc_local.png)
 
@@ -228,6 +236,12 @@ Neste estudo, no entanto, os atletas que demonstraram preferência por este espo
 A discrepância na opção por atividades acessórias é marcante:
 81 jogadores de futebol relataram praticar atividades secundárias,
 enquanto que os dados de atletas de corrida e musculação são consideravelmente (29 e 14, respectivamente).
+
+A dor foi relatada com maior frequência nas regiões inguinal e adutora e o Púbis linha média (**figura 5**).
+A troca de direção, tiros e chutes foram os movimentos com maior prevalência de dor (**figura 6**).
+Estes três movimentos têm em comum o uso de força explosiva, comparada à corrida longa.
+Não é evidente porém a que haja relação de causa e efeito neste tipo de movimento uma vez que o salto, que compartilha esta característica, foi o movimento com menor ocorrência de dor em nossa amostra.
+São necessários outros estudos independentes para confirmar as prevalências de pubalgia atlética aqui relatadas.
 
 Avaliações clínicas podem ser ferramentas úteis no diagnóstico precoce da pubalgia.
 Nossas observações indicam que dois dos exames físicos avaliados (EF2 e EF4) são propostas promissoras apresentando resultados positivos, respectivamente, 77% e 78% dos casos.
