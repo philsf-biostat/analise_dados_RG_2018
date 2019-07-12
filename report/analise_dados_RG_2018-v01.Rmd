@@ -82,7 +82,7 @@ Descrever as ocorrências de pubalgia em atletas de diversas modalidades esporti
 
 ## Recepção e tratamento dos dados
 
-Os dados foram recebidos em uma planilha excel, no formato longo (uma observação por linha).
+Os dados foram recebidos em uma planilha Excel, no formato longo (uma observação por linha).
 A planilha continha tabelas separadas para classificar corretamente os dados em que um participante contribui com várias observações.
 As tabelas utilizadas nesta análise representam:
 
@@ -121,7 +121,7 @@ Esta série de casos contou com `r N.amostra` participantes, dos quais `r N.sexo
 Os participantes do estudo tinham idades entre `r min(participantes$IDADE)` e `r max(participantes$IDADE)` anos.
 Atletas atuantes no Brasil, os participantes são oriundos de `r length(UF)` estados brasileiros (`r UF`), e `r length(paises.ext)` atletas estrangeiros (`r paises.ext`).
 
-Os participantes foram perguntados sobre o nível de dedicação que eles praticam seu esporte: `r N.nivel["PROFISSIONAL"]` praticam no nível profissional, `r N.nivel["UNIVERSITÁRIO/ESCOLAR"]` no nível universitário/escolar e `r N.nivel["RECREACIONAL"]` praticam recreacionalmente.
+Os participantes foram perguntados sobre o nível de dedicação que eles praticam seu esporte: `r N.nivel["PROFISSIONAL"]` praticam no nível profissional, `r N.nivel["UNIVERSITÁRIO/ESCOLAR"]` no nível universitário/escolar e `r N.nivel["RECREACIONAL"]` praticam de forma recreacional.
 `r table(participantes$AGUDA)["1"]` participantes relataram sentir dor aguda.
 Após as avaliações médicas `r table(participantes$CIRURGIA)["1"]` participantes receberam indicação de algum procedimento cirúrgico para mitigar os sintomas.
 
@@ -231,8 +231,8 @@ local.tab.prop <- prop.table(table(table(locais$ID))) # prop de movimentos em qu
 A **figura 5** mostra a proporção de participantes que sente dor em cada um dos locais avaliados neste estudo.
 `r local.tab.n[1]` (`r format.pct(local.tab.prop)[1]`) participantes relataram sentir dor em um único local, enquanto `r local.tab.n[2:4]` sentem dor em dois, três e quatro locais respectivamente (o que corresponde a `r format.pct(local.tab.prop)[2:4]` do total, respectivamente).
 `r local.tab.n[5]` (`r format.pct(local.tab.prop)[5]`) participantes sentem dor nos 5 locais.
-A **figura 6** mostra o número de participates que sente dor em cada movimento avaliado neste estudo.
-`r movim.tab.n[1]` participantes (`r format.pct(movim.tab.prop)[1]`) sentem dor em algum dos movimentos avalidos, enquanto `r movim.tab.n[2:4]` sentem dor em dois, três e quatro movimentos respectivamente (o que corresponde a `r format.pct(movim.tab.prop)[2:4]` do total, respectivamente).
+A **figura 6** mostra o número de participantes que sente dor em cada movimento avaliado neste estudo.
+`r movim.tab.n[1]` participantes (`r format.pct(movim.tab.prop)[1]`) sentem dor em algum dos movimentos avaliados, enquanto `r movim.tab.n[2:4]` sentem dor em dois, três e quatro movimentos respectivamente (o que corresponde a `r format.pct(movim.tab.prop)[2:4]` do total, respectivamente).
 `r movim.tab.n[5]` (`r format.pct(movim.tab.prop)[5]`) participantes sentem dor nos cinco movimentos.
 
 <!-- **DESCREVER** -->
