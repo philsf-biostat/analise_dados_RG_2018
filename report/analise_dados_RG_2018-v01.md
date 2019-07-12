@@ -65,7 +65,21 @@ toc-title: "Sumário"
 
 ## Objetivos
 
+Descrever as ocorrências de pubalgia em atletas de diversas modalidades esportivas e níveis de dedicação.
+
 ## Recepção e tratamento dos dados
+
+Os dados foram recebidos em uma planilha Excel, no formato longo (uma observação por linha).
+A planilha continha tabelas separadas para classificar corretamente os dados em que um participante contribui com várias observações.
+As tabelas utilizadas nesta análise representam:
+
+- Dados dos participantes
+- Esportes praticados
+- Locais em que os participantes sentem dor
+- Movimentos em que os participantes sentem dor
+
+Todas as tabelas contém um código unívoco que identifica cada participante.
+Este código foi usado para mergir as tabelas para análise.
 
 # Metodologia
 
@@ -85,7 +99,7 @@ Esta série de casos contou com 245 participantes, dos quais 29 era mulheres e 2
 Os participantes do estudo tinham idades entre 14 e 75 anos.
 Atletas atuantes no Brasil, os participantes são oriundos de 21 estados brasileiros (AC, AM, BA, CE, DF, ES, GO, MA, MG, MT, PA, PE, PR, RJ, RN, RO, RR, RS, SC, SE, SP), e 4 atletas estrangeiros (Angola, Guiné, França, Portugal).
 
-Os participantes foram perguntados sobre o nível de dedicação que eles praticam seu esporte: 44 praticam no nível profissional, 19 no nível universitário/escolar e 182 praticam recreacionalmente.
+Os participantes foram perguntados sobre o nível de dedicação que eles praticam seu esporte: 44 praticam no nível profissional, 19 no nível universitário/escolar e 182 praticam de forma recreacional.
 36 participantes relataram sentir dor aguda.
 Após as avaliações médicas 23 participantes receberam indicação de algum procedimento cirúrgico para mitigar os sintomas.
 
@@ -169,8 +183,8 @@ dos esportes secundários dos atletas com pubalgia (8 de 14).
 A **figura 5** mostra a proporção de participantes que sente dor em cada um dos locais avaliados neste estudo.
 65 (26.5%) participantes relataram sentir dor em um único local, enquanto 110, 48, 15 sentem dor em dois, três e quatro locais respectivamente (o que corresponde a 44.9%, 19.6%, 6.1% do total, respectivamente).
 4 (1.6%) participantes sentem dor nos 5 locais.
-A **figura 6** mostra o número de participates que sente dor em cada movimento avaliado neste estudo.
-49 participantes (20.0%) sentem dor em algum dos movimentos avalidos, enquanto 80, 56, 30 sentem dor em dois, três e quatro movimentos respectivamente (o que corresponde a 32.7%, 22.9%, 12.2% do total, respectivamente).
+A **figura 6** mostra o número de participantes que sente dor em cada movimento avaliado neste estudo.
+49 participantes (20.0%) sentem dor em algum dos movimentos avaliados, enquanto 80, 56, 30 sentem dor em dois, três e quatro movimentos respectivamente (o que corresponde a 32.7%, 22.9%, 12.2% do total, respectivamente).
 30 (12.2%) participantes sentem dor nos cinco movimentos.
 
 <!-- **DESCREVER** -->
