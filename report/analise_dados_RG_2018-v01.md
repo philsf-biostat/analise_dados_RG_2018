@@ -184,15 +184,15 @@ A **figura 5** mostra a proporção de participantes que sente dor em cada um do
 65 (26.5%) participantes relataram sentir dor em um único local, enquanto 110, 48, 15 sentem dor em dois, três e quatro locais respectivamente (o que corresponde a 44.9%, 19.6%, 6.1% do total, respectivamente).
 4 (1.6%) participantes sentem dor nos 5 locais.
 A **figura 6** mostra o número de participantes que sente dor em cada movimento avaliado neste estudo.
-49 participantes (20.0%) sentem dor em algum dos movimentos avaliados, enquanto 80, 56, 30 sentem dor em dois, três e quatro movimentos respectivamente (o que corresponde a 32.7%, 22.9%, 12.2% do total, respectivamente).
+45 participantes (18.4%) sentem dor em algum dos movimentos avaliados, enquanto 81, 55, 30 sentem dor em dois, três e quatro movimentos respectivamente (o que corresponde a 33.1%, 22.4%, 12.2% do total, respectivamente).
 30 (12.2%) participantes sentem dor nos cinco movimentos.
 
 <!-- **DESCREVER** -->
 
 <!-- 1. N de participantes em que a dor interfere na prática esportiva: 243 -->
 <!-- 1. % de participantes em que a dor interfere na prática esportiva: 99.2% -->
-<!-- 1. N de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): 49, 80, 56, 30, 30 -->
-<!-- 1. % de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): 20.0%, 32.7%, 22.9%, 12.2%, 12.2% -->
+<!-- 1. N de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): 45, 81, 55, 30, 30 -->
+<!-- 1. % de movimentos em que participantes sentem (1 movimento, a todos os 5 movimentos): 18.4%, 33.1%, 22.4%, 12.2%, 12.2% -->
 <!-- 1. N de locais em que participantes sentem (1 local, a todos os 5 locais): 65, 110, 48, 15, 4, 3 -->
 <!-- 1. % de locais em que participantes sentem (1 local, a todos os 5 locais): 26.5%, 44.9%, 19.6%, 6.1%, 1.6%, 1.2% -->
 
