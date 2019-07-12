@@ -83,7 +83,15 @@ Descrever as ocorrências de pubalgia em atletas de diversas modalidades esporti
 ## Recepção e tratamento dos dados
 
 Os dados foram recebidos em uma planilha excel, no formato longo (uma observação por linha).
+A planilha continha tabelas separadas para classificar corretamente os dados em que um participante contribui com várias observações.
+As tabelas utilizadas nesta análise representam:
 
+- Dados dos participantes
+- Esportes praticados
+- Locais em que os participantes sentem dor
+- Movimentos em que os participantes sentem dor
+
+Estas tabelas foram mergidas para análise utilizando um código unívoco que identifica cada participante.
 
 # Metodologia
 
