@@ -91,7 +91,8 @@ As tabelas utilizadas nesta análise representam:
 - Locais em que os participantes sentem dor
 - Movimentos em que os participantes sentem dor
 
-Estas tabelas foram mergidas para análise utilizando um código unívoco que identifica cada participante.
+Todas as tabelas contém um código unívoco que identifica cada participante.
+Este código foi usado para mergir as tabelas para análise.
 
 # Metodologia
 
