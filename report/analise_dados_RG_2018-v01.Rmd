@@ -101,9 +101,10 @@ source("scripts/resultados.R", encoding = 'UTF-8')
 source("scripts/visualizacoes.R", encoding = 'UTF-8')
 ```
 
+Foi feita uma análise exploratória de dados, descrevendo o perfil epidemiológico dos participantes do estudo.
+As variáveis categóricas são apresentadas como frequência e proporção (%).
+
 Esta análise foi realizada utilizando-se o software `R` versão `r getRversion()`.
-
-
 
 # Resultados
 

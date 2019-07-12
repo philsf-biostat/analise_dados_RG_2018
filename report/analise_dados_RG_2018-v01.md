@@ -85,9 +85,10 @@ Este código foi usado para mergir as tabelas para análise.
 
 
 
+Foi feita uma análise exploratória de dados, descrevendo o perfil epidemiológico dos participantes do estudo.
+As variáveis categóricas são apresentadas como frequência e proporção (%).
+
 Esta análise foi realizada utilizando-se o software `R` versão 3.6.1.
-
-
 
 # Resultados
 
