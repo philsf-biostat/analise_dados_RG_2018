@@ -85,6 +85,9 @@ participantes$IDADE.cat <- cut(participantes$IDADE, breaks = c(-Inf, 24, 40, Inf
 # Categorização da frequência de treino
 participantes$FREQ.cat <- cut(participantes$FREQ, breaks = c(0, 3, Inf), labels = c("Até 3", "4 ou mais"))
 
+# remover movimentos com dados NA
+movim <- movim[!is.na(MOVIMENTO)]
+
 # Movimentos
 levels(movim$MOVIMENTO) <- c(
   "Troca de direção",
