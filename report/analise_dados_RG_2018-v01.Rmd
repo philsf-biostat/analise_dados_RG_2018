@@ -221,6 +221,10 @@ interfere.tab.prop <- prop.table(table(participantes$INTERFERE))
 movim.tab.n <- table(table(movim$ID)) # número de movimentos em que os participantes sentem dor
 movim.tab.prop <- prop.table(table(table(movim$ID))) # prop de movimentos em que os participantes sentem dor
 
+#retirar as contagens sem dor (bug de imputação de dados?)
+movim.tab.n <- movim.tab.n[2:6]
+movim.tab.prop <- movim.tab.prop[2:6]
+
 local.tab.n <- table(table(locais$ID)) # número de movimentos em que os participantes sentem dor
 local.tab.prop <- prop.table(table(table(locais$ID))) # prop de movimentos em que os participantes sentem dor
 ```
